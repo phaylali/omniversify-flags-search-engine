@@ -18,6 +18,7 @@ An interactive web application that lets you explore country flags by their colo
 ## Demo
 
 Open the application and:
+
 1. Click on "Red" in Simplified mode to see all flags with red
 2. Add "Blue" to find flags with both red AND blue
 3. Switch to Advanced mode to select exact hex colors like `#003DA5`
@@ -122,3 +123,25 @@ bun run scripts/merge-geojson.ts
 ## License
 
 MIT License - See LICENSE file for details
+
+---
+
+## Support Us
+
+<p align="center">
+  <a href="https://ko-fi.com/omniversify">
+    <img src="https://raw.githubusercontent.com/phaylali/Omniversify/main/public/images/kofi_logo.svg" width="200" alt="Ko-Fi" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>Keep us going</strong>
+</p>
+
+---
+
+&copy; 2026 [Omniversify](https://omniversify.com). All rights reserved.
+
+_Made by Moroccans, for the Omniverse_
+
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg)](https://donate.unrwa.org/-landing-page/en_EN)
