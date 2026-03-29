@@ -76,7 +76,9 @@ const groups = Object.entries(colorGroupsData.groups)
 
         <section class="map-section">
           <h2>World Map</h2>
-          <div id="map"></div>
+          <div id="map">
+            <svg id="mapSvg" viewBox="0 0 900 450" preserveAspectRatio="xMidYMid meet"></svg>
+          </div>
         </section>
       </div>
 
@@ -84,19 +86,7 @@ const groups = Object.entries(colorGroupsData.groups)
         <h2>Matching Flags <span id="flagCount">(0)</span></h2>
         <div class="flags-grid" id="flagsGrid">
           <div class="no-flags">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
-              ></path>
-            </svg>
+            <i class="ti ti-flag-off"></i>
             <p>Select colors above to see matching flags</p>
           </div>
         </div>
@@ -106,10 +96,8 @@ const groups = Object.entries(colorGroupsData.groups)
 
   <link
     rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    href="https://unpkg.com/@tabler/icons-webfont@3.28.1/tabler-icons.min.css"
   />
-  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  ></script>
 </Layout>
 
 <style>
@@ -475,6 +463,23 @@ const groups = Object.entries(colorGroupsData.groups)
     height: 350px;
     border-radius: 12px;
     overflow: hidden;
+    background: #0a0a15;
+  }
+
+  #mapSvg {
+    width: 100%;
+    height: 100%;
+  }
+
+  #mapSvg path {
+    stroke: #1a1a2e;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: fill 0.2s ease;
+  }
+
+  #mapSvg path:hover {
+    fill-opacity: 0.5 !important;
   }
 
   .no-flags {
@@ -484,11 +489,10 @@ const groups = Object.entries(colorGroupsData.groups)
     color: #666;
   }
 
-  .no-flags svg {
-    width: 50px;
-    height: 50px;
+  .no-flags .ti {
+    font-size: 48px;
     margin-bottom: 12px;
-    opacity: 0.3;
+    opacity: 0.4;
   }
 </style>
 
@@ -510,7 +514,6 @@ const groups = Object.entries(colorGroupsData.groups)
   const activeColors = new Set<string>();
   const activeGroups = new Set<string>();
   let isAdvanced = false;
-  let map: any = null;
   let geoJsonLayer: any = null;
 
   const nameMap: Record<string, string> = {
@@ -552,6 +555,7 @@ const groups = Object.entries(colorGroupsData.groups)
     China: "cn",
     Colombia: "co",
     Comoros: "km",
+    "Republic of the Congo": "cg",
     Congo: "cg",
     "Costa Rica": "cr",
     Croatia: "hr",
@@ -564,13 +568,13 @@ const groups = Object.entries(colorGroupsData.groups)
     Dominica: "dm",
     "Dominican Republic": "do",
     "East Timor": "tl",
-    "Timor-Leste": "tl",
     Ecuador: "ec",
     Egypt: "eg",
     "El Salvador": "sv",
     "Equatorial Guinea": "gq",
     Eritrea: "er",
     Estonia: "ee",
+    eSwatini: "sz",
     Eswatini: "sz",
     Ethiopia: "et",
     Fiji: "fj",
@@ -598,7 +602,6 @@ const groups = Object.entries(colorGroupsData.groups)
     Ireland: "ie",
     Italy: "it",
     "Ivory Coast": "ci",
-    "Cote d'Ivoire": "ci",
     Jamaica: "jm",
     Japan: "jp",
     Jordan: "jo",
@@ -669,6 +672,7 @@ const groups = Object.entries(colorGroupsData.groups)
     "Sao Tome and Principe": "st",
     "Saudi Arabia": "sa",
     Senegal: "sn",
+    "Republic of Serbia": "rs",
     Serbia: "rs",
     Seychelles: "sc",
     "Sierra Leone": "sl",
@@ -690,9 +694,10 @@ const groups = Object.entries(colorGroupsData.groups)
     Taiwan: "tw",
     Tajikistan: "tj",
     Tanzania: "tz",
+    "United Republic of Tanzania": "tz",
     Thailand: "th",
+    "The Bahamas": "bs",
     Togo: "tg",
-    Tonga: "to",
     "Trinidad and Tobago": "tt",
     Tunisia: "tn",
     Turkey: "tr",
@@ -703,7 +708,6 @@ const groups = Object.entries(colorGroupsData.groups)
     "United Arab Emirates": "ae",
     "United Kingdom": "gb",
     "United States of America": "us",
-    "United States": "us",
     Uruguay: "uy",
     Uzbekistan: "uz",
     Vanuatu: "vu",
@@ -713,7 +717,6 @@ const groups = Object.entries(colorGroupsData.groups)
     Yemen: "ye",
     Zambia: "zm",
     Zimbabwe: "zw",
-    "Republic of the Congo": "cg",
   };
 
   function getActiveGroupNames(): Set<string> {
@@ -765,9 +768,7 @@ const groups = Object.entries(colorGroupsData.groups)
     if (matching.length === 0) {
       grid.innerHTML = `
         <div class="no-flags">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
-          </svg>
+          <i class="ti ti-flag-off"></i>
           <p>${activeColors.size === 0 && activeGroups.size === 0 ? "Select colors above to see matching flags" : "No flags match all selected colors"}</p>
         </div>`;
       return;
@@ -777,7 +778,7 @@ const groups = Object.entries(colorGroupsData.groups)
       .map(
         (flag) => `
       <div class="flag-card">
-        <img src="https://flagcdn.com/w320/${flag.code}.png" alt="${flag.name}" loading="lazy" />
+        <img src="https://flagicons.lipis.dev/flags/4x3/${flag.code}.svg" alt="${flag.name}" loading="lazy" />
         <div class="country-name">${flag.name}</div>
         <div class="flag-colors">
           ${flag.colors.map((c) => `<div class="flag-color-dot" style="background:${c}"></div>`).join("")}
@@ -855,24 +856,16 @@ const groups = Object.entries(colorGroupsData.groups)
     if (!geoJsonLayer) return;
     const matchingCodes = new Set(getMatchingFlags().map((f) => f.code));
 
-    geoJsonLayer.eachLayer((layer: any) => {
-      const name =
-        layer.feature.properties.ADMIN || layer.feature.properties.name || "";
+    const svg = document.getElementById("mapSvg")!;
+    svg.querySelectorAll("path").forEach((path: any) => {
+      const name = path.dataset.name || "";
       const code = nameMap[name];
       if (code && matchingCodes.has(code)) {
-        layer.setStyle({
-          fillColor: "#FFD700",
-          fillOpacity: 0.7,
-          weight: 2,
-          color: "#FFD700",
-        });
+        path.setAttribute("fill", "#FFD700");
+        path.setAttribute("fill-opacity", "0.7");
       } else {
-        layer.setStyle({
-          fillColor: "#333",
-          fillOpacity: 0.2,
-          weight: 1,
-          color: "#555",
-        });
+        path.setAttribute("fill", "#333");
+        path.setAttribute("fill-opacity", "0.3");
       }
     });
   }
@@ -932,52 +925,196 @@ const groups = Object.entries(colorGroupsData.groups)
     });
   });
 
-  // Map
-  function waitForLeaflet() {
-    if (typeof (window as any).L !== "undefined") initMap();
-    else setTimeout(waitForLeaflet, 100);
-  }
-
+  // D3 SVG Map
   async function initMap() {
-    const L = (window as any).L;
-    map = L.map("map").setView([20, 0], 2);
-    L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-      {
-        attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
-        maxZoom: 19,
-      },
-    ).addTo(map);
+    const container = document.getElementById("map")!;
+    const svg = document.getElementById("mapSvg")!;
+    const width = 900;
+    const height = 450;
+
+    let scale = 1;
+    let translateX = 0;
+    let translateY = 0;
+    let isPanning = false;
+    let startX = 0;
+    let startY = 0;
+
+    const updateTransform = () => {
+      const g = svg.querySelector("g");
+      if (g) {
+        g.setAttribute(
+          "transform",
+          `translate(${translateX},${translateY}) scale(${scale})`,
+        );
+      }
+    };
+
+    // Zoom with mouse wheel
+    container.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const delta = e.deltaY > 0 ? 0.9 : 1.1;
+      const newScale = Math.max(0.5, Math.min(10, scale * delta));
+
+      // Zoom toward mouse position
+      const rect = container.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      translateX = mouseX - (mouseX - translateX) * (newScale / scale);
+      translateY = mouseY - (mouseY - translateY) * (newScale / scale);
+      scale = newScale;
+
+      updateTransform();
+    });
+
+    // Pan with mouse drag
+    container.addEventListener("mousedown", (e) => {
+      isPanning = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      container.style.cursor = "grabbing";
+    });
+
+    window.addEventListener("mousemove", (e) => {
+      if (!isPanning) return;
+      translateX = e.clientX - startX;
+      translateY = e.clientY - startY;
+      updateTransform();
+    });
+
+    window.addEventListener("mouseup", () => {
+      isPanning = false;
+      container.style.cursor = "grab";
+    });
+
+    container.style.cursor = "grab";
+
+    // Reset zoom button
+    const resetBtn = document.createElement("button");
+    resetBtn.textContent = "Reset";
+    resetBtn.style.cssText = `
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 4px 12px;
+      background: #252540;
+      border: 1px solid #444;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      z-index: 10;
+    `;
+    resetBtn.addEventListener("click", () => {
+      scale = 1;
+      translateX = 0;
+      translateY = 0;
+      updateTransform();
+    });
+    container.style.position = "relative";
+    container.appendChild(resetBtn);
 
     try {
-      const res = await fetch(
-        "https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson",
-      );
+      const res = await fetch("/world.geojson");
       const geoData = await res.json();
-      // Filter out excluded countries
-      const excludedCountries = ["Israel", "Western Sahara"];
-      geoData.features = geoData.features.filter(
-        (f: any) =>
-          !excludedCountries.includes(f.properties.ADMIN) &&
-          !excludedCountries.includes(f.properties.name),
-      );
-      geoJsonLayer = L.geoJSON(geoData, {
-        style: {
-          fillColor: "#333",
-          fillOpacity: 0.2,
-          weight: 1,
-          color: "#555",
-        },
-        onEachFeature: (feature: any, layer: any) => {
-          layer.bindTooltip(
-            feature.properties.ADMIN || feature.properties.name || "Unknown",
+
+      // Simple mercator projection
+      const projection = (lon: number, lat: number) => {
+        const x = (lon + 180) * (width / 360);
+        const latRad = (lat * Math.PI) / 180;
+        const mercN = Math.log(Math.tan(Math.PI / 4 + latRad / 2));
+        const y = height / 2 - (width * mercN) / (2 * Math.PI);
+        return [x, y];
+      };
+
+      const pathFromCoords = (coords: number[][]): string => {
+        return coords
+          .map(([lon, lat], i) => {
+            const [x, y] = projection(lon, lat);
+            return `${i === 0 ? "M" : "L"}${x.toFixed(2)},${y.toFixed(2)}`;
+          })
+          .join(" ");
+      };
+
+      const geometryToPath = (geom: any): string => {
+        if (geom.type === "Polygon") {
+          return geom.coordinates
+            .map((ring: number[][]) => pathFromCoords(ring) + "Z")
+            .join(" ");
+        } else if (geom.type === "MultiPolygon") {
+          return geom.coordinates
+            .map((polygon: number[][][]) =>
+              polygon
+                .map((ring: number[][]) => pathFromCoords(ring) + "Z")
+                .join(" "),
+            )
+            .join(" ");
+        }
+        return "";
+      };
+
+      const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+      geoData.features.forEach((feature: any) => {
+        const name = feature.properties.ADMIN || feature.properties.NAME || "";
+        const pathD = geometryToPath(feature.geometry);
+
+        if (pathD) {
+          const path = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path",
           );
-        },
-      }).addTo(map);
+          path.setAttribute("d", pathD);
+          path.setAttribute("fill", "#333");
+          path.setAttribute("fill-opacity", "0.3");
+          path.setAttribute("data-name", name);
+
+          // Tooltip
+          path.addEventListener("mouseenter", (e) => {
+            const tooltip = document.createElement("div");
+            tooltip.className = "map-tooltip";
+            tooltip.textContent = name;
+            tooltip.style.cssText = `
+              position: fixed;
+              background: #1a1a2e;
+              color: #fff;
+              padding: 4px 8px;
+              border-radius: 4px;
+              font-size: 12px;
+              pointer-events: none;
+              z-index: 1000;
+              border: 1px solid #444;
+            `;
+            document.body.appendChild(tooltip);
+            (path as any)._tooltip = tooltip;
+          });
+
+          path.addEventListener("mousemove", (e) => {
+            const tooltip = (path as any)._tooltip;
+            if (tooltip) {
+              tooltip.style.left = e.clientX + 10 + "px";
+              tooltip.style.top = e.clientY + 10 + "px";
+            }
+          });
+
+          path.addEventListener("mouseleave", () => {
+            const tooltip = (path as any)._tooltip;
+            if (tooltip) {
+              tooltip.remove();
+              (path as any)._tooltip = null;
+            }
+          });
+
+          g.appendChild(path);
+        }
+      });
+
+      svg.appendChild(g);
+      geoJsonLayer = true;
     } catch (e) {
       console.error("Failed to load GeoJSON:", e);
     }
   }
 
-  waitForLeaflet();
+  initMap();
 </script>
