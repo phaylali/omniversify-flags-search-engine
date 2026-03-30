@@ -2,8 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import flagsData from "../../public/flags.json";
 
-// Color groups - simplified to 7 main groups
+// Color groups - simplified to 7 main groups + "Any" option
 const groups = [
+  { key: "any", label: "Any", color: "linear-gradient(135deg, #CE1126, #FCD116, #009E49, #003DA5)" },
   { key: "red", label: "Red", color: "#CE1126" },
   { key: "blue", label: "Blue", color: "#003DA5" },
   { key: "green", label: "Green", color: "#009E49" },
@@ -18,7 +19,7 @@ const groups = [
   <div class="container">
     <header>
       <h1>Flag Color Explorer</h1>
-      <p>Select colors to find flags containing ALL selected colors</p>
+      <p>Select colors to find flags containing ALL selected colors, or click "Any" to see all flags</p>
     </header>
 
     <div class="active-filters" id="activeFilters"></div>
@@ -417,16 +418,42 @@ const groups = [
 
   .flag-colors {
     display: flex;
-    gap: 2px;
+    flex-wrap: wrap;
+    gap: 3px;
     justify-content: center;
     margin-top: auto;
-    padding-top: 3px;
+    padding-top: 4px;
   }
-  .flag-color-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+
+  .color-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.55rem;
+    font-family: monospace;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    min-width: 48px;
+  }
+
+  .color-hex {
+    color: inherit;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  }
+
+  /* Adjust text color based on background brightness */
+  .color-chip[style*="background:#FFFFFF"],
+  .color-chip[style*="background:#ffffff"],
+  .color-chip[style*="background:#FCD116"],
+  .color-chip[style*="background:#fcd116"],
+  .color-chip[style*="background:#FF8C00"],
+  .color-chip[style*="background:#ff8c00"] {
+    color: #333;
+  }
+
+  .color-chip:not([style*="background:#FFFFFF"]):not([style*="background:#ffffff"]):not([style*="background:#FCD116"]):not([style*="background:#fcd116"]):not([style*="background:#FF8C00"]):not([style*="background:#ff8c00"]) {
+    color: #fff;
   }
 
   #map {
@@ -469,9 +496,10 @@ const groups = [
 <script>
   import flagsData from "../../public/flags.json";
 
-  // 7 color groups
-  const groups = ["red", "blue", "green", "yellow", "orange", "white", "black"];
+  // 7 color groups + "any"
+  const groups = ["any", "red", "blue", "green", "yellow", "orange", "white", "black"];
   const groupColors: Record<string, string> = {
+    any: "linear-gradient(135deg, #CE1126, #FCD116, #009E49, #003DA5)",
     red: "#CE1126",
     blue: "#003DA5",
     green: "#009E49",
@@ -688,6 +716,11 @@ const groups = [
   };
 
   function getMatchingFlags() {
+    // If "any" is selected, show all flags
+    if (activeGroups.has("any")) {
+      return flagsData;
+    }
+
     // AND logic across groups using colorGroups property
     if (activeGroups.size === 0) return [];
 
@@ -710,7 +743,7 @@ const groups = [
       grid.innerHTML = `
         <div class="no-flags">
           <i class="ti ti-flag-off"></i>
-          <p>${activeGroups.size === 0 ? "Select colors above to see matching flags" : "No flags match all selected colors"}</p>
+          <p>${activeGroups.size === 0 ? "Select colors above or click 'Any' to see all flags" : "No flags match all selected colors"}</p>
         </div>`;
       return;
     }
@@ -722,7 +755,7 @@ const groups = [
         <img src="https://flagicons.lipis.dev/flags/4x3/${flag.code}.svg" alt="${flag.name}" loading="lazy" />
         <div class="country-name">${flag.name}</div>
         <div class="flag-colors">
-          ${flag.colors.map((c) => `<div class="flag-color-dot" style="background:${c}"></div>`).join("")}
+          ${flag.colors.map((c) => `<div class="color-chip" style="background:${c}"><span class="color-hex">${c}</span></div>`).join("")}
         </div>
       </div>
     `,
@@ -735,9 +768,11 @@ const groups = [
     let html = "";
 
     activeGroups.forEach((g) => {
+      const isAny = g === "any";
+      const bgStyle = isAny ? `background: linear-gradient(135deg, #CE1126, #FCD116, #009E49, #003DA5)` : `background:${groupColors[g]}`;
       html += `<div class="filter-tag">
-        <span class="dot" style="background:${groupColors[g]}"></span>
-        <span>${g.charAt(0).toUpperCase() + g.slice(1)}</span>
+        <span class="dot" style="${bgStyle}"></span>
+        <span>${isAny ? "All Flags" : g.charAt(0).toUpperCase() + g.slice(1)}</span>
         <span class="remove" data-remove-group="${g}">&times;</span>
       </div>`;
     });
@@ -752,18 +787,14 @@ const groups = [
       el.addEventListener("click", () => {
         const group = el.getAttribute("data-remove-group")!;
         activeGroups.delete(group);
-        document
-          .querySelectorAll(`.color-group-btn[data-group="${group}"]`)
-          .forEach((b) => b.classList.remove("active"));
+        document.querySelectorAll(`.color-group-btn[data-group="${group}"]`).forEach((b) => b.classList.remove("active"));
         updateAll();
       });
     });
 
     document.getElementById("clearAll")?.addEventListener("click", () => {
       activeGroups.clear();
-      document
-        .querySelectorAll(".active")
-        .forEach((el) => el.classList.remove("active"));
+      document.querySelectorAll(".color-group-btn").forEach((el) => el.classList.remove("active"));
       updateAll();
     });
   }
@@ -796,12 +827,32 @@ const groups = [
   document.querySelectorAll(".color-group-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const group = btn.getAttribute("data-group")!;
-      if (activeGroups.has(group)) {
-        activeGroups.delete(group);
-        btn.classList.remove("active");
+
+      if (group === "any") {
+        // If "any" is clicked, clear all others and toggle "any"
+        if (activeGroups.has("any")) {
+          activeGroups.clear();
+          document.querySelectorAll(".color-group-btn").forEach((b) => b.classList.remove("active"));
+        } else {
+          activeGroups.clear();
+          activeGroups.add("any");
+          document.querySelectorAll(".color-group-btn").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+        }
       } else {
-        activeGroups.add(group);
-        btn.classList.add("active");
+        // If any other button is clicked, remove "any" if active
+        if (activeGroups.has("any")) {
+          activeGroups.delete("any");
+          document.querySelector('.color-group-btn[data-group="any"]')?.classList.remove("active");
+        }
+
+        if (activeGroups.has(group)) {
+          activeGroups.delete(group);
+          btn.classList.remove("active");
+        } else {
+          activeGroups.add(group);
+          btn.classList.add("active");
+        }
       }
       updateAll();
     });
