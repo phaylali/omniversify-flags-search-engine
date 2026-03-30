@@ -1,16 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import flagsData from "../../public/flags.json";
-import colorGroupsData from "../../public/colorGroups.json";
 
-// Build grouped colors for display
-const groups = Object.entries(colorGroupsData.groups)
-  .filter(([_, g]) => g.colors.length > 0)
-  .map(([key, g]) => ({
-    key,
-    label: g.label,
-    colors: g.colors,
-  }));
+// Color groups - simplified to 7 main groups
+const groups = [
+  { key: "red", label: "Red", color: "#CE1126" },
+  { key: "blue", label: "Blue", color: "#003DA5" },
+  { key: "green", label: "Green", color: "#009E49" },
+  { key: "yellow", label: "Yellow", color: "#FCD116" },
+  { key: "orange", label: "Orange", color: "#FF8C00" },
+  { key: "white", label: "White", color: "#FFFFFF" },
+  { key: "black", label: "Black", color: "#000000" },
+];
 ---
 
 <Layout title="Flag Color Explorer">
@@ -20,57 +21,26 @@ const groups = Object.entries(colorGroupsData.groups)
       <p>Select colors to find flags containing ALL selected colors</p>
     </header>
 
-    <div class="view-toggle">
-      <button class="toggle-btn active" id="simplifiedBtn">Simplified</button>
-      <button class="toggle-btn" id="advancedBtn">Advanced</button>
-    </div>
-
     <div class="active-filters" id="activeFilters"></div>
 
     <div class="main-content">
       <div class="left-column">
         <section class="color-palette" id="colorPalette">
-          <!-- Simplified view -->
+          <!-- Color group buttons -->
           <div id="simplifiedView" class="palette-view">
-            {
-              groups.map((g) => (
-                <button
-                  class="color-group-btn"
-                  data-group={g.key}
-                  aria-label={`Select ${g.label}`}
-                >
-                  <span
-                    class="group-swatch"
-                    style={`background: linear-gradient(135deg, ${g.colors[0]} 0%, ${g.colors[Math.floor(g.colors.length / 2)]} 50%, ${g.colors[g.colors.length - 1]} 100%)`}
-                  />
-                  <span class="group-label">{g.label}</span>
-                  <span class="group-count">({g.colors.length})</span>
-                </button>
-              ))
-            }
-          </div>
-
-          <!-- Advanced view -->
-          <div id="advancedView" class="palette-view hidden">
-            {
-              groups.map((g) => (
-                <div class="color-group-section" data-group-section={g.key}>
-                  <div class="group-header">{g.label}</div>
-                  <div class="group-colors">
-                    {g.colors.map((color) => (
-                      <button
-                        class="color-swatch"
-                        style={`background-color: ${color}`}
-                        data-color={color}
-                        data-group={g.key}
-                        title={color}
-                        aria-label={`Select color ${color}`}
-                      />
-                    ))}
-                  </div>
-                </div>
-              ))
-            }
+            {groups.map((g) => (
+              <button
+                class="color-group-btn"
+                data-group={g.key}
+                aria-label={`Select ${g.label}`}
+              >
+                <span
+                  class="group-swatch"
+                  style={`background-color: ${g.color}`}
+                />
+                <span class="group-label">{g.label}</span>
+              </button>
+            ))}
           </div>
         </section>
 
@@ -498,22 +468,20 @@ const groups = Object.entries(colorGroupsData.groups)
 
 <script>
   import flagsData from "../../public/flags.json";
-  import colorGroupsData from "../../public/colorGroups.json";
 
-  // Build lookup maps
-  const groupColors: Record<string, string[]> = {};
-  const colorToGroup: Record<string, string> = {};
+  // 7 color groups
+  const groups = ["red", "blue", "green", "yellow", "orange", "white", "black"];
+  const groupColors: Record<string, string> = {
+    red: "#CE1126",
+    blue: "#003DA5",
+    green: "#009E49",
+    yellow: "#FCD116",
+    orange: "#FF8C00",
+    white: "#FFFFFF",
+    black: "#000000",
+  };
 
-  Object.entries(colorGroupsData.groups).forEach(([key, group]) => {
-    groupColors[key] = group.colors;
-    group.colors.forEach((c) => {
-      colorToGroup[c.toUpperCase()] = key;
-    });
-  });
-
-  const activeColors = new Set<string>();
   const activeGroups = new Set<string>();
-  let isAdvanced = false;
   let geoJsonLayer: any = null;
 
   const nameMap: Record<string, string> = {
@@ -719,41 +687,14 @@ const groups = Object.entries(colorGroupsData.groups)
     Zimbabwe: "zw",
   };
 
-  function getActiveGroupNames(): Set<string> {
-    const names = new Set<string>();
-    activeGroups.forEach((g) => names.add(g));
-    activeColors.forEach((c) => {
-      const g = colorToGroup[c.toUpperCase()];
-      if (g) names.add(g);
-    });
-    return names;
-  }
-
   function getMatchingFlags() {
-    // Advanced mode: AND logic for specific hex colors
-    if (isAdvanced) {
-      if (activeColors.size === 0) return [];
-      return flagsData.filter((flag) => {
-        const flagColors = flag.colors.map((c) => c.toUpperCase());
-        for (const color of activeColors) {
-          if (!flagColors.includes(color.toUpperCase())) return false;
-        }
-        return true;
-      });
-    }
-
-    // Simplified mode: AND logic across groups
-    const groupNames = getActiveGroupNames();
-    if (groupNames.size === 0) return [];
+    // AND logic across groups using colorGroups property
+    if (activeGroups.size === 0) return [];
 
     return flagsData.filter((flag) => {
-      const flagColors = flag.colors.map((c) => c.toUpperCase());
-      for (const groupName of groupNames) {
-        const groupColorList = groupColors[groupName] || [];
-        const hasMatch = groupColorList.some((gc) =>
-          flagColors.includes(gc.toUpperCase()),
-        );
-        if (!hasMatch) return false;
+      const cg = flag.colorGroups || {};
+      for (const groupName of activeGroups) {
+        if (!cg[groupName]) return false;
       }
       return true;
     });
@@ -769,7 +710,7 @@ const groups = Object.entries(colorGroupsData.groups)
       grid.innerHTML = `
         <div class="no-flags">
           <i class="ti ti-flag-off"></i>
-          <p>${activeColors.size === 0 && activeGroups.size === 0 ? "Select colors above to see matching flags" : "No flags match all selected colors"}</p>
+          <p>${activeGroups.size === 0 ? "Select colors above to see matching flags" : "No flags match all selected colors"}</p>
         </div>`;
       return;
     }
@@ -794,27 +735,14 @@ const groups = Object.entries(colorGroupsData.groups)
     let html = "";
 
     activeGroups.forEach((g) => {
-      const colors = groupColors[g] || [];
-      const groupInfo = (colorGroupsData as any).groups[g];
       html += `<div class="filter-tag">
-        <span class="dot" style="background:${colors[0] || "#888"}"></span>
-        <span>${groupInfo?.label || g}</span>
+        <span class="dot" style="background:${groupColors[g]}"></span>
+        <span>${g.charAt(0).toUpperCase() + g.slice(1)}</span>
         <span class="remove" data-remove-group="${g}">&times;</span>
       </div>`;
     });
 
-    activeColors.forEach((c) => {
-      const group = colorToGroup[c.toUpperCase()];
-      if (!activeGroups.has(group)) {
-        html += `<div class="filter-tag">
-          <span class="dot" style="background:${c}"></span>
-          <span>${c}</span>
-          <span class="remove" data-remove-color="${c}">&times;</span>
-        </div>`;
-      }
-    });
-
-    if (activeGroups.size > 0 || activeColors.size > 0) {
+    if (activeGroups.size > 0) {
       html += `<button class="clear-all" id="clearAll">Clear All</button>`;
     }
 
@@ -831,19 +759,7 @@ const groups = Object.entries(colorGroupsData.groups)
       });
     });
 
-    container.querySelectorAll("[data-remove-color]").forEach((el) => {
-      el.addEventListener("click", () => {
-        const color = el.getAttribute("data-remove-color")!;
-        activeColors.delete(color);
-        document
-          .querySelectorAll(`.color-swatch[data-color="${color}"]`)
-          .forEach((b) => b.classList.remove("active"));
-        updateAll();
-      });
-    });
-
     document.getElementById("clearAll")?.addEventListener("click", () => {
-      activeColors.clear();
       activeGroups.clear();
       document
         .querySelectorAll(".active")
@@ -876,26 +792,7 @@ const groups = Object.entries(colorGroupsData.groups)
     updateMap();
   }
 
-  // View toggle
-  document.getElementById("simplifiedBtn")!.addEventListener("click", () => {
-    isAdvanced = false;
-    document.getElementById("simplifiedView")!.classList.remove("hidden");
-    document.getElementById("advancedView")!.classList.add("hidden");
-    document.getElementById("simplifiedBtn")!.classList.add("active");
-    document.getElementById("advancedBtn")!.classList.remove("active");
-    updateAll();
-  });
-
-  document.getElementById("advancedBtn")!.addEventListener("click", () => {
-    isAdvanced = true;
-    document.getElementById("advancedView")!.classList.remove("hidden");
-    document.getElementById("simplifiedView")!.classList.add("hidden");
-    document.getElementById("advancedBtn")!.classList.add("active");
-    document.getElementById("simplifiedBtn")!.classList.remove("active");
-    updateAll();
-  });
-
-  // Simplified: group buttons
+  // Color group buttons
   document.querySelectorAll(".color-group-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const group = btn.getAttribute("data-group")!;
@@ -910,22 +807,7 @@ const groups = Object.entries(colorGroupsData.groups)
     });
   });
 
-  // Advanced: individual swatches
-  document.querySelectorAll(".color-swatch").forEach((swatch) => {
-    swatch.addEventListener("click", () => {
-      const color = swatch.getAttribute("data-color")!;
-      if (activeColors.has(color)) {
-        activeColors.delete(color);
-        swatch.classList.remove("active");
-      } else {
-        activeColors.add(color);
-        swatch.classList.add("active");
-      }
-      updateAll();
-    });
-  });
-
-  // D3 SVG Map
+  // Color group buttons
   async function initMap() {
     const container = document.getElementById("map")!;
     const svg = document.getElementById("mapSvg")!;
