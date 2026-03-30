@@ -2051,11 +2051,12 @@
     "code": "mr",
     "colors": [
       "#009E49",
-      "#FCD116"
+      "#FCD116",
+      "#D01C1F"
     ],
     "tabler": "mauritania",
     "colorGroups": {
-      "red": false,
+      "red": true,
       "blue": false,
       "green": true,
       "yellow": true,
