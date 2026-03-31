@@ -1,0 +1,2281 @@
+[
+  {
+    "code": "ad",
+    "name": "Andorra",
+    "colors": [
+      "#FFFFFF",
+      "#0018A8",
+      "#0065BD",
+      "#703D29",
+      "#C7B37F",
+      "#D0103A",
+      "#D52B1E",
+      "#FCD900",
+      "#FEDF00"
+    ]
+  },
+  {
+    "code": "ae",
+    "name": "United Arab Emirates",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#00732F",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "af",
+    "name": "Afghanistan",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#009900",
+      "#BD6B00",
+      "#BF0000"
+    ]
+  },
+  {
+    "code": "ag",
+    "name": "Antigua and Barbuda",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#0072C6",
+      "#CE1126",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "al",
+    "name": "Albania",
+    "colors": [
+      "#000001",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "am",
+    "name": "Armenia",
+    "colors": [
+      "#0033A0",
+      "#D90012",
+      "#F2A800"
+    ]
+  },
+  {
+    "code": "ao",
+    "name": "Angola",
+    "colors": [
+      "#000000",
+      "#000001",
+      "#FF0000",
+      "#FFEC00",
+      "#FFEE00"
+    ]
+  },
+  {
+    "code": "ar",
+    "name": "Argentina",
+    "colors": [
+      "#FFFFFF",
+      "#74ACDF",
+      "#843511",
+      "#85340A",
+      "#F6B40E"
+    ]
+  },
+  {
+    "code": "at",
+    "name": "Austria",
+    "colors": [
+      "#FFFFFF",
+      "#C8102E"
+    ]
+  },
+  {
+    "code": "au",
+    "name": "Australia",
+    "colors": [
+      "#FFFFFF",
+      "#00008B",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "az",
+    "name": "Azerbaijan",
+    "colors": [
+      "#FFFFFF",
+      "#00B9E4",
+      "#3F9C35",
+      "#ED2939"
+    ]
+  },
+  {
+    "code": "ba",
+    "name": "Bosnia and Herzegovina",
+    "colors": [
+      "#FFFFFF",
+      "#000099",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "bb",
+    "name": "Barbados",
+    "colors": [
+      "#000001",
+      "#00267F",
+      "#FFC726"
+    ]
+  },
+  {
+    "code": "bd",
+    "name": "Bangladesh",
+    "colors": [
+      "#006A4E",
+      "#F42A41"
+    ]
+  },
+  {
+    "code": "be",
+    "name": "Belgium",
+    "colors": [
+      "#000001",
+      "#F31830",
+      "#FFD90C"
+    ]
+  },
+  {
+    "code": "bf",
+    "name": "Burkina Faso",
+    "colors": [
+      "#35A100",
+      "#DE0000",
+      "#FFF300"
+    ]
+  },
+  {
+    "code": "bg",
+    "name": "Bulgaria",
+    "colors": [
+      "#FFFFFF",
+      "#00966E",
+      "#D62612"
+    ]
+  },
+  {
+    "code": "bh",
+    "name": "Bahrain",
+    "colors": [
+      "#FFFFFF",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "bi",
+    "name": "Burundi",
+    "colors": [
+      "#FFFFFF",
+      "#18B637",
+      "#CF0921"
+    ]
+  },
+  {
+    "code": "bj",
+    "name": "Benin",
+    "colors": [
+      "#319400",
+      "#808080",
+      "#DE2110",
+      "#FFD600"
+    ]
+  },
+  {
+    "code": "bn",
+    "name": "Brunei",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#CF1126",
+      "#F7E017"
+    ]
+  },
+  {
+    "code": "bo",
+    "name": "Bolivia",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#005000",
+      "#007934",
+      "#007A3D",
+      "#00A6DE",
+      "#00E519",
+      "#339900",
+      "#452C25",
+      "#574F4C",
+      "#5E3F17",
+      "#7A2E26",
+      "#842116",
+      "#A05A2C",
+      "#BD8759",
+      "#C6262C",
+      "#CCCCCF",
+      "#CCE5E5",
+      "#D52B1E",
+      "#D9C0B9",
+      "#DBA05F",
+      "#DCDDDE",
+      "#E7E7E7",
+      "#E8A30E",
+      "#EEEEEE",
+      "#F7E214",
+      "#FFE000",
+      "#FFE533"
+    ]
+  },
+  {
+    "code": "br",
+    "name": "Brazil",
+    "colors": [
+      "#FFFFFF",
+      "#229E45",
+      "#2B49A3",
+      "#309E3A",
+      "#F7FFFF",
+      "#F8E509",
+      "#FFFFEF"
+    ]
+  },
+  {
+    "code": "bs",
+    "name": "Bahamas",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#08CED6",
+      "#FFE900"
+    ]
+  },
+  {
+    "code": "bt",
+    "name": "Bhutan",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#FF4E12",
+      "#FFD520"
+    ]
+  },
+  {
+    "code": "bw",
+    "name": "Botswana",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#00CBFF"
+    ]
+  },
+  {
+    "code": "by",
+    "name": "Belarus",
+    "colors": [
+      "#FFFFFF",
+      "#007C30",
+      "#CE1720"
+    ]
+  },
+  {
+    "code": "bz",
+    "name": "Belize",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#003300",
+      "#003F87",
+      "#004B00",
+      "#005800",
+      "#006600",
+      "#006AC8",
+      "#007F00",
+      "#289400",
+      "#552300",
+      "#570A00",
+      "#5AC800",
+      "#6699FF",
+      "#730000",
+      "#782121",
+      "#7E4B7E",
+      "#952D1A",
+      "#9B5F00",
+      "#9DD7FF",
+      "#B34B00",
+      "#CCB8C8",
+      "#CE1126",
+      "#EA5700",
+      "#FF0018",
+      "#FFA54B",
+      "#FFB366",
+      "#FFD800",
+      "#FFD83C",
+      "#FFEF5D"
+    ]
+  },
+  {
+    "code": "ca",
+    "name": "Canada",
+    "colors": [
+      "#FFFFFF",
+      "#D52B1E"
+    ]
+  },
+  {
+    "code": "cd",
+    "name": "Democratic Republic of the Congo",
+    "colors": [
+      "#007FFF",
+      "#CE1021",
+      "#F7D618"
+    ]
+  },
+  {
+    "code": "cf",
+    "name": "Central African Republic",
+    "colors": [
+      "#FFFFFF",
+      "#0000FF",
+      "#009A00",
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "cg",
+    "name": "Congo",
+    "colors": [
+      "#00CA00",
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "ch",
+    "name": "Switzerland",
+    "colors": [
+      "#FFFFFF",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "ci",
+    "name": "Ivory Coast",
+    "colors": [
+      "#FFFFFF",
+      "#00CD00",
+      "#FF9A00"
+    ]
+  },
+  {
+    "code": "cl",
+    "name": "Chile",
+    "colors": [
+      "#FFFFFF",
+      "#0039A6",
+      "#D52B1E"
+    ]
+  },
+  {
+    "code": "cm",
+    "name": "Cameroon",
+    "colors": [
+      "#007A5E",
+      "#CE1126",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "cn",
+    "name": "China",
+    "colors": [
+      "#EE1C25",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "co",
+    "name": "Colombia",
+    "colors": [
+      "#00148E",
+      "#DA0010",
+      "#FFE800"
+    ]
+  },
+  {
+    "code": "cr",
+    "name": "Costa Rica",
+    "colors": [
+      "#FFFFFF",
+      "#0000B4",
+      "#D90000"
+    ]
+  },
+  {
+    "code": "cu",
+    "name": "Cuba",
+    "colors": [
+      "#FFFFFF",
+      "#002A8F",
+      "#CB1515"
+    ]
+  },
+  {
+    "code": "cv",
+    "name": "Cabo Verde",
+    "colors": [
+      "#FFFFFF",
+      "#081873",
+      "#DE3929",
+      "#FFCE08"
+    ]
+  },
+  {
+    "code": "cy",
+    "name": "Cyprus",
+    "colors": [
+      "#FFFFFF",
+      "#435125",
+      "#D47600"
+    ]
+  },
+  {
+    "code": "cz",
+    "name": "Czechia",
+    "colors": [
+      "#FFFFFF",
+      "#11457E",
+      "#D7141A"
+    ]
+  },
+  {
+    "code": "de",
+    "name": "Germany",
+    "colors": [
+      "#000001",
+      "#FF0000",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "dj",
+    "name": "Djibouti",
+    "colors": [
+      "#00CC00",
+      "#6699FF",
+      "#FF0000",
+      "#FFFEFE"
+    ]
+  },
+  {
+    "code": "dk",
+    "name": "Denmark",
+    "colors": [
+      "#FFFFFF",
+      "#C8102E"
+    ]
+  },
+  {
+    "code": "dm",
+    "name": "Dominica",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#009200",
+      "#108C00",
+      "#804BFF",
+      "#A95600",
+      "#C90000",
+      "#E72910",
+      "#FF0000",
+      "#FFD600",
+      "#FFE700",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "do",
+    "name": "Dominican Republic",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#002D62",
+      "#006300",
+      "#00863D",
+      "#00873F",
+      "#008F4C",
+      "#201B18",
+      "#808000",
+      "#AA241E",
+      "#CE1126",
+      "#EAC102",
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "dz",
+    "name": "Algeria",
+    "colors": [
+      "#FFFFFF",
+      "#006233",
+      "#D21034"
+    ]
+  },
+  {
+    "code": "ec",
+    "name": "Ecuador",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#0000C4",
+      "#00148E",
+      "#005B00",
+      "#38A9F9",
+      "#772600",
+      "#782600",
+      "#808080",
+      "#812E00",
+      "#908F8A",
+      "#984000",
+      "#A7CFFF",
+      "#AFFF7B",
+      "#B74D00",
+      "#B7E1FF",
+      "#CECECC",
+      "#DA0010",
+      "#E10000",
+      "#FEDE00",
+      "#FF0000",
+      "#FFDF00",
+      "#FFE800"
+    ]
+  },
+  {
+    "code": "ee",
+    "name": "Estonia",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#1791FF"
+    ]
+  },
+  {
+    "code": "eg",
+    "name": "Egypt",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#C09300",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "er",
+    "name": "Eritrea",
+    "colors": [
+      "#239E46",
+      "#B4D7F4",
+      "#BE0027",
+      "#F3E295"
+    ]
+  },
+  {
+    "code": "es",
+    "name": "Spain",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#0039F0",
+      "#005BBF",
+      "#058E6E",
+      "#AA151B",
+      "#AD1519",
+      "#C7B500",
+      "#C8B100",
+      "#CCCCCC",
+      "#DB4446",
+      "#ED72AA",
+      "#F1BF00",
+      "#FFD691"
+    ]
+  },
+  {
+    "code": "et",
+    "name": "Ethiopia",
+    "colors": [
+      "#006BC6",
+      "#298C08",
+      "#EF2118",
+      "#FFC621"
+    ]
+  },
+  {
+    "code": "fi",
+    "name": "Finland",
+    "colors": [
+      "#FFFFFF",
+      "#002F6C"
+    ]
+  },
+  {
+    "code": "fj",
+    "name": "Fiji",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#00A651",
+      "#012169",
+      "#68BFE5",
+      "#964B36",
+      "#C8102E",
+      "#D21034",
+      "#FFD100",
+      "#FFF200"
+    ]
+  },
+  {
+    "code": "fm",
+    "name": "Micronesia",
+    "colors": [
+      "#FFFFFF",
+      "#6797D6"
+    ]
+  },
+  {
+    "code": "fr",
+    "name": "France",
+    "colors": [
+      "#FFFFFF",
+      "#000091",
+      "#E1000F"
+    ]
+  },
+  {
+    "code": "ga",
+    "name": "Gabon",
+    "colors": [
+      "#006DBC",
+      "#36A100",
+      "#FFE700"
+    ]
+  },
+  {
+    "code": "gb",
+    "name": "United Kingdom",
+    "colors": [
+      "#FFFFFF",
+      "#012169",
+      "#C8102E"
+    ]
+  },
+  {
+    "code": "gd",
+    "name": "Grenada",
+    "colors": [
+      "#007A5E",
+      "#CE1126",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "ge",
+    "name": "Georgia",
+    "colors": [
+      "#FFFFFF",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "gh",
+    "name": "Ghana",
+    "colors": [
+      "#000001",
+      "#006B3F",
+      "#CE1126",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "gm",
+    "name": "Gambia",
+    "colors": [
+      "#FFFFFF",
+      "#000099",
+      "#009900",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "gn",
+    "name": "Guinea",
+    "colors": [
+      "#009900",
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "gq",
+    "name": "Equatorial Guinea",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#0073CE",
+      "#009A3B",
+      "#3E9A00",
+      "#73452B",
+      "#A36629",
+      "#E32118",
+      "#FFD700"
+    ]
+  },
+  {
+    "code": "gr",
+    "name": "Greece",
+    "colors": [
+      "#FFFFFF",
+      "#0D5EAF"
+    ]
+  },
+  {
+    "code": "gt",
+    "name": "Guatemala",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#24420E",
+      "#34541F",
+      "#351710",
+      "#406325",
+      "#448127",
+      "#485654",
+      "#4997D0",
+      "#4C0505",
+      "#511124",
+      "#67923D",
+      "#6C301E",
+      "#8C959D",
+      "#999270",
+      "#A08307",
+      "#A50A0A",
+      "#B07E09",
+      "#B2B6BA",
+      "#BA1F3E",
+      "#EAC102",
+      "#F9F0AA",
+      "#FAB81C"
+    ]
+  },
+  {
+    "code": "gw",
+    "name": "Guinea-Bissau",
+    "colors": [
+      "#000001",
+      "#009E49",
+      "#CE1126",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "gy",
+    "name": "Guyana",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#399408",
+      "#DE2110",
+      "#FFDE08"
+    ]
+  },
+  {
+    "code": "hn",
+    "name": "Honduras",
+    "colors": [
+      "#FFFFFF",
+      "#18C3DF"
+    ]
+  },
+  {
+    "code": "hr",
+    "name": "Croatia",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#0093DD",
+      "#171796",
+      "#F7DB17",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "ht",
+    "name": "Haiti",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#00209F",
+      "#016A16",
+      "#0A328C",
+      "#503200",
+      "#D20014",
+      "#D21034",
+      "#F1B517"
+    ]
+  },
+  {
+    "code": "hu",
+    "name": "Hungary",
+    "colors": [
+      "#FFFFFF",
+      "#388D00",
+      "#D43516"
+    ]
+  },
+  {
+    "code": "id",
+    "name": "Indonesia",
+    "colors": [
+      "#FFFFFF",
+      "#E70011"
+    ]
+  },
+  {
+    "code": "ie",
+    "name": "Ireland",
+    "colors": [
+      "#FFFFFF",
+      "#009A49",
+      "#FF7900"
+    ]
+  },
+  {
+    "code": "in",
+    "name": "India",
+    "colors": [
+      "#FFFFFF",
+      "#000088",
+      "#128807",
+      "#FF9933"
+    ]
+  },
+  {
+    "code": "iq",
+    "name": "Iraq",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#007A3D",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "ir",
+    "name": "Iran",
+    "colors": [
+      "#FFFFFF",
+      "#239E3F",
+      "#239F40",
+      "#D90000",
+      "#DA0000"
+    ]
+  },
+  {
+    "code": "is",
+    "name": "Iceland",
+    "colors": [
+      "#FFFFFF",
+      "#003897",
+      "#D72828"
+    ]
+  },
+  {
+    "code": "it",
+    "name": "Italy",
+    "colors": [
+      "#FFFFFF",
+      "#009246",
+      "#CE2B37"
+    ]
+  },
+  {
+    "code": "jm",
+    "name": "Jamaica",
+    "colors": [
+      "#000001",
+      "#009900",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "jo",
+    "name": "Jordan",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#009900",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "jp",
+    "name": "Japan",
+    "colors": [
+      "#FFFFFF",
+      "#BC002D"
+    ]
+  },
+  {
+    "code": "ke",
+    "name": "Kenya",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#006600",
+      "#BB0000"
+    ]
+  },
+  {
+    "code": "kg",
+    "name": "Kyrgyzstan",
+    "colors": [
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "kh",
+    "name": "Cambodia",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#032EA1",
+      "#E00025"
+    ]
+  },
+  {
+    "code": "ki",
+    "name": "Kiribati",
+    "colors": [
+      "#FFFFFF",
+      "#005989",
+      "#D8AA3F",
+      "#D9A43E",
+      "#E73E2D",
+      "#FEC74A",
+      "#FFC84B"
+    ]
+  },
+  {
+    "code": "km",
+    "name": "Comoros",
+    "colors": [
+      "#FFFFFF",
+      "#239E46",
+      "#3B5AA3",
+      "#BE0027",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "kn",
+    "name": "Saint Kitts and Nevis",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#35A100",
+      "#C70000",
+      "#FFE900"
+    ]
+  },
+  {
+    "code": "kp",
+    "name": "North Korea",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#3E5698",
+      "#C40000",
+      "#C60000"
+    ]
+  },
+  {
+    "code": "kr",
+    "name": "South Korea",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#0047A0",
+      "#CD2E3A"
+    ]
+  },
+  {
+    "code": "kw",
+    "name": "Kuwait",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#00D941",
+      "#F31830"
+    ]
+  },
+  {
+    "code": "kz",
+    "name": "Kazakhstan",
+    "colors": [
+      "#00ABC2",
+      "#FFEC2D"
+    ]
+  },
+  {
+    "code": "la",
+    "name": "Laos",
+    "colors": [
+      "#FFFFFF",
+      "#002868",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "lb",
+    "name": "Lebanon",
+    "colors": [
+      "#FFFFFF",
+      "#00A850",
+      "#EE161F"
+    ]
+  },
+  {
+    "code": "lc",
+    "name": "Saint Lucia",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#65CFFF",
+      "#FFCE00"
+    ]
+  },
+  {
+    "code": "li",
+    "name": "Liechtenstein",
+    "colors": [
+      "#000000",
+      "#000001",
+      "#002B7F",
+      "#CE1126",
+      "#FFD83D"
+    ]
+  },
+  {
+    "code": "lk",
+    "name": "Sri Lanka",
+    "colors": [
+      "#000000",
+      "#000001",
+      "#005641",
+      "#8D2029",
+      "#FF5B00",
+      "#FFB700"
+    ]
+  },
+  {
+    "code": "lr",
+    "name": "Liberia",
+    "colors": [
+      "#FFFFFF",
+      "#000066",
+      "#CC0000"
+    ]
+  },
+  {
+    "code": "ls",
+    "name": "Lesotho",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#00209F",
+      "#009543"
+    ]
+  },
+  {
+    "code": "lt",
+    "name": "Lithuania",
+    "colors": [
+      "#006A44",
+      "#C1272D",
+      "#FDB913"
+    ]
+  },
+  {
+    "code": "lu",
+    "name": "Luxembourg",
+    "colors": [
+      "#FFFFFF",
+      "#00A1DE",
+      "#ED2939"
+    ]
+  },
+  {
+    "code": "lv",
+    "name": "Latvia",
+    "colors": [
+      "#FFFFFF",
+      "#981E32"
+    ]
+  },
+  {
+    "code": "ly",
+    "name": "Libya",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#239E46",
+      "#E70013"
+    ]
+  },
+  {
+    "code": "ma",
+    "name": "Morocco",
+    "colors": [
+      "#006233",
+      "#C1272D"
+    ]
+  },
+  {
+    "code": "mc",
+    "name": "Monaco",
+    "colors": [
+      "#FFFFFF",
+      "#F31830"
+    ]
+  },
+  {
+    "code": "md",
+    "name": "Moldova",
+    "colors": [
+      "#000000",
+      "#00319C",
+      "#008500",
+      "#008F00",
+      "#564DFF",
+      "#A77B3B",
+      "#CAC9C7",
+      "#DA4500",
+      "#DE2110",
+      "#FF0000",
+      "#FF1900",
+      "#FFDE00",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "me",
+    "name": "Montenegro",
+    "colors": [
+      "#1D5E91",
+      "#6D8C3E",
+      "#B96B29",
+      "#C40308",
+      "#C52126",
+      "#D3AE3B",
+      "#D4AF3A"
+    ]
+  },
+  {
+    "code": "mg",
+    "name": "Madagascar",
+    "colors": [
+      "#FFFFFF",
+      "#007E3A",
+      "#FC3D32"
+    ]
+  },
+  {
+    "code": "mh",
+    "name": "Marshall Islands",
+    "colors": [
+      "#FFFFFF",
+      "#3B5AA3",
+      "#E2AE57"
+    ]
+  },
+  {
+    "code": "mk",
+    "name": "North Macedonia",
+    "colors": [
+      "#D20000",
+      "#FFE600"
+    ]
+  },
+  {
+    "code": "ml",
+    "name": "Mali",
+    "colors": [
+      "#009A00",
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "mm",
+    "name": "Myanmar",
+    "colors": [
+      "#FFFFFF",
+      "#34B233",
+      "#EA2839",
+      "#FECB00"
+    ]
+  },
+  {
+    "code": "mn",
+    "name": "Mongolia",
+    "colors": [
+      "#0066B3",
+      "#DA2032",
+      "#FFD900"
+    ]
+  },
+  {
+    "code": "mr",
+    "name": "Mauritania",
+    "colors": [
+      "#006233",
+      "#CD2A3E",
+      "#FFC400"
+    ]
+  },
+  {
+    "code": "mt",
+    "name": "Malta",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#CF142B"
+    ]
+  },
+  {
+    "code": "mu",
+    "name": "Mauritius",
+    "colors": [
+      "#00A04D",
+      "#151F6D",
+      "#EE2737",
+      "#FFCD00"
+    ]
+  },
+  {
+    "code": "mv",
+    "name": "Maldives",
+    "colors": [
+      "#FFFFFF",
+      "#007E3A",
+      "#D21034"
+    ]
+  },
+  {
+    "code": "mw",
+    "name": "Malawi",
+    "colors": [
+      "#000001",
+      "#21873B",
+      "#F31509",
+      "#F41408"
+    ]
+  },
+  {
+    "code": "mx",
+    "name": "Mexico",
+    "colors": [
+      "#FFFFFF",
+      "#006847",
+      "#016848",
+      "#04534E",
+      "#0872A7",
+      "#0C8489",
+      "#171717",
+      "#1C242F",
+      "#1E2121",
+      "#202020",
+      "#202220",
+      "#231F20",
+      "#30C2DC",
+      "#312317",
+      "#404118",
+      "#45392D",
+      "#4B4139",
+      "#4D2A15",
+      "#513625",
+      "#5C3818",
+      "#5C3A1D",
+      "#6C3F18",
+      "#6C4119",
+      "#6F5B24",
+      "#717732",
+      "#78732E",
+      "#803F1D",
+      "#816C2A",
+      "#874F20",
+      "#8B441F",
+      "#8B5122",
+      "#8CBEBF",
+      "#8F4620",
+      "#904720",
+      "#953220",
+      "#977C2E",
+      "#9CA168",
+      "#A8AC71",
+      "#AA8C30",
+      "#AB6D29",
+      "#AF7029",
+      "#B07229",
+      "#B27129",
+      "#BF802D",
+      "#C6C7A6",
+      "#CD202A",
+      "#CE1126",
+      "#D2A567",
+      "#D5D3CA",
+      "#DBAD6C",
+      "#E92736",
+      "#F15770",
+      "#F16E16",
+      "#F1A720",
+      "#F7E204",
+      "#F8C83C",
+      "#F9AA51",
+      "#F9C83A",
+      "#FCCA3D",
+      "#FCCA3E",
+      "#FCF3D8",
+      "#FDEAAF"
+    ]
+  },
+  {
+    "code": "my",
+    "name": "Malaysia",
+    "colors": [
+      "#FFFFFF",
+      "#000066",
+      "#CC0000",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "mz",
+    "name": "Mozambique",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#009A00",
+      "#FF0000",
+      "#FFCA00"
+    ]
+  },
+  {
+    "code": "na",
+    "name": "Namibia",
+    "colors": [
+      "#FFFFFF",
+      "#3662A2",
+      "#38A100",
+      "#C70000",
+      "#FFE700"
+    ]
+  },
+  {
+    "code": "ne",
+    "name": "Niger",
+    "colors": [
+      "#FFFFFF",
+      "#0DB02B",
+      "#E05206"
+    ]
+  },
+  {
+    "code": "ng",
+    "name": "Nigeria",
+    "colors": [
+      "#FFFFFF",
+      "#008753"
+    ]
+  },
+  {
+    "code": "ni",
+    "name": "Nicaragua",
+    "colors": [
+      "#FFFFFF",
+      "#0000FF",
+      "#002255",
+      "#0044AA",
+      "#0067C6",
+      "#00CCFF",
+      "#00FF00",
+      "#17C0EB",
+      "#510000",
+      "#800080",
+      "#8A0000",
+      "#910000",
+      "#93BC30",
+      "#97C924",
+      "#9ECB34",
+      "#AA0000",
+      "#C6CB24",
+      "#C8A400",
+      "#CCD11E",
+      "#EDE71F",
+      "#F5F549",
+      "#FF0000",
+      "#FF2A2A",
+      "#FF3A3A",
+      "#FF6600",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "nl",
+    "name": "Netherlands",
+    "colors": [
+      "#FFFFFF",
+      "#21468B",
+      "#AE1C28"
+    ]
+  },
+  {
+    "code": "no",
+    "name": "Norway",
+    "colors": [
+      "#FFFFFF",
+      "#002664",
+      "#ED2939"
+    ]
+  },
+  {
+    "code": "np",
+    "name": "Nepal",
+    "colors": [
+      "#FFFFFF",
+      "#000063",
+      "#CE0000"
+    ]
+  },
+  {
+    "code": "nr",
+    "name": "Nauru",
+    "colors": [
+      "#FFFFFF",
+      "#002170",
+      "#FFB20D"
+    ]
+  },
+  {
+    "code": "nz",
+    "name": "New Zealand",
+    "colors": [
+      "#FFFFFF",
+      "#00247D",
+      "#012169",
+      "#C8102E",
+      "#CC142B"
+    ]
+  },
+  {
+    "code": "om",
+    "name": "Oman",
+    "colors": [
+      "#FFFFFF",
+      "#009025",
+      "#EF0000",
+      "#EF2D28",
+      "#EF2D29"
+    ]
+  },
+  {
+    "code": "pa",
+    "name": "Panama",
+    "colors": [
+      "#FFFFFF",
+      "#0000AB",
+      "#D80000",
+      "#DB0000"
+    ]
+  },
+  {
+    "code": "pe",
+    "name": "Peru",
+    "colors": [
+      "#FFFFFF",
+      "#D91023"
+    ]
+  },
+  {
+    "code": "pg",
+    "name": "Papua New Guinea",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#FF0000",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "ph",
+    "name": "Philippines",
+    "colors": [
+      "#FFFFFF",
+      "#0038A8",
+      "#CE1126",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "pk",
+    "name": "Pakistan",
+    "colors": [
+      "#FFFFFF",
+      "#0C590B"
+    ]
+  },
+  {
+    "code": "pl",
+    "name": "Poland",
+    "colors": [
+      "#FFFFFF",
+      "#DC143C"
+    ]
+  },
+  {
+    "code": "ps",
+    "name": "Palestine",
+    "colors": [
+      "#FFFFFF",
+      "#009639",
+      "#ED2E38"
+    ]
+  },
+  {
+    "code": "pt",
+    "name": "Portugal",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#003399",
+      "#006600",
+      "#FF0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "pw",
+    "name": "Palau",
+    "colors": [
+      "#4AADD6",
+      "#FFDE00"
+    ]
+  },
+  {
+    "code": "py",
+    "name": "Paraguay",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#0038A8",
+      "#009B3A",
+      "#D52B1E",
+      "#FEDF00"
+    ]
+  },
+  {
+    "code": "qa",
+    "name": "Qatar",
+    "colors": [
+      "#FFFFFF",
+      "#8D1B3D"
+    ]
+  },
+  {
+    "code": "ro",
+    "name": "Romania",
+    "colors": [
+      "#00319C",
+      "#DE2110",
+      "#FFDE00"
+    ]
+  },
+  {
+    "code": "rs",
+    "name": "Serbia",
+    "colors": [
+      "#FFFFFF",
+      "#0C4076",
+      "#21231E",
+      "#C6363C",
+      "#EDB92E"
+    ]
+  },
+  {
+    "code": "ru",
+    "name": "Russia",
+    "colors": [
+      "#FFFFFF",
+      "#0039A6",
+      "#D52B1E"
+    ]
+  },
+  {
+    "code": "rw",
+    "name": "Rwanda",
+    "colors": [
+      "#00A1DE",
+      "#20603D",
+      "#E5BE01",
+      "#FAD201"
+    ]
+  },
+  {
+    "code": "sa",
+    "name": "Saudi Arabia",
+    "colors": [
+      "#FFFFFF",
+      "#165D31"
+    ]
+  },
+  {
+    "code": "sb",
+    "name": "Solomon Islands",
+    "colors": [
+      "#FFFFFF",
+      "#0000D6",
+      "#006000",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "sc",
+    "name": "Seychelles",
+    "colors": [
+      "#FFFFFF",
+      "#003D88",
+      "#007A39",
+      "#D92223",
+      "#FCD955"
+    ]
+  },
+  {
+    "code": "sd",
+    "name": "Sudan",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#009A00",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "se",
+    "name": "Sweden",
+    "colors": [
+      "#005293",
+      "#FECB00"
+    ]
+  },
+  {
+    "code": "sg",
+    "name": "Singapore",
+    "colors": [
+      "#FFFFFF",
+      "#DF0000"
+    ]
+  },
+  {
+    "code": "si",
+    "name": "Slovenia",
+    "colors": [
+      "#FFFFFF",
+      "#0000BF",
+      "#D50000",
+      "#FFDF00"
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "Slovakia",
+    "colors": [
+      "#FFFFFF",
+      "#0B4EA2",
+      "#EE1C25"
+    ]
+  },
+  {
+    "code": "sl",
+    "name": "Sierra Leone",
+    "colors": [
+      "#FFFFFF",
+      "#0000CD",
+      "#00CD00"
+    ]
+  },
+  {
+    "code": "sm",
+    "name": "San Marino",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#004100",
+      "#006800",
+      "#00A400",
+      "#19B6EF",
+      "#3A9D4F",
+      "#4FD46B",
+      "#65C7FF",
+      "#68300E",
+      "#7D6C00",
+      "#8FC753",
+      "#9D4916",
+      "#A8A8A8",
+      "#A9A9A9",
+      "#AC0000",
+      "#B97700",
+      "#C76E2E",
+      "#E40000",
+      "#E9BF00",
+      "#FFDD00",
+      "#FFE100"
+    ]
+  },
+  {
+    "code": "sn",
+    "name": "Senegal",
+    "colors": [
+      "#0B7226",
+      "#BC0000",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "so",
+    "name": "Somalia",
+    "colors": [
+      "#FFFFFF",
+      "#40A6FF"
+    ]
+  },
+  {
+    "code": "sr",
+    "name": "Suriname",
+    "colors": [
+      "#FFFFFF",
+      "#377E3F",
+      "#B40A2D",
+      "#ECC81D"
+    ]
+  },
+  {
+    "code": "ss",
+    "name": "South Sudan",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#078930",
+      "#0F47AF",
+      "#DA121A",
+      "#FCDD09"
+    ]
+  },
+  {
+    "code": "st",
+    "name": "Sao Tome and Principe",
+    "colors": [
+      "#000001",
+      "#12AD2B",
+      "#D21034",
+      "#FFCE00"
+    ]
+  },
+  {
+    "code": "sv",
+    "name": "El Salvador",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#00209F",
+      "#00633B",
+      "#007E93",
+      "#011322",
+      "#011D33",
+      "#011E34",
+      "#011F36",
+      "#022037",
+      "#022139",
+      "#02223B",
+      "#02233D",
+      "#02233E",
+      "#022540",
+      "#022541",
+      "#022743",
+      "#022845",
+      "#022847",
+      "#022A49",
+      "#032A4A",
+      "#032B4C",
+      "#032C4D",
+      "#032D4F",
+      "#032E50",
+      "#032F53",
+      "#033054",
+      "#033156",
+      "#043258",
+      "#043359",
+      "#04345B",
+      "#04355C",
+      "#04365E",
+      "#043760",
+      "#043862",
+      "#043963",
+      "#053A65",
+      "#053B67",
+      "#053C68",
+      "#053D6A",
+      "#053E6C",
+      "#053F6E",
+      "#053F6F",
+      "#064171",
+      "#064172",
+      "#064374",
+      "#0671B0",
+      "#0863AA",
+      "#086AAD",
+      "#095FA8",
+      "#0A52A2",
+      "#0A58A5",
+      "#0B4D9F",
+      "#0C419A",
+      "#0C479D",
+      "#0D74A4",
+      "#0F47AF",
+      "#113B97",
+      "#127A97",
+      "#143393",
+      "#172D91",
+      "#17808B",
+      "#1A258D",
+      "#1A847D",
+      "#1E8A6D",
+      "#1F1F8A",
+      "#1F601A",
+      "#221786",
+      "#238F5E",
+      "#241183",
+      "#270A7F",
+      "#2A007C",
+      "#2B944E",
+      "#2F9B3E",
+      "#33A02C",
+      "#47A928",
+      "#5CB323",
+      "#70BC1F",
+      "#85C61A",
+      "#99CF16",
+      "#ADD912",
+      "#C2E30E",
+      "#D6EC09",
+      "#E60000",
+      "#EBF605",
+      "#FCB482",
+      "#FCB485",
+      "#FCB685",
+      "#FCB687",
+      "#FDB98A",
+      "#FDBB8D",
+      "#FDBB8F",
+      "#FDBE90",
+      "#FDBE92",
+      "#FDC095",
+      "#FDC097",
+      "#FDC398",
+      "#FDC39B",
+      "#FDC59E",
+      "#FDC8A1",
+      "#FDC8A4",
+      "#FDCAA4",
+      "#FDCAA6",
+      "#FDCDAA",
+      "#FDD0AD",
+      "#FDD0B0",
+      "#FDD1B0",
+      "#FDD2B2",
+      "#FDD4B6",
+      "#FDD4B8",
+      "#FDD6B9",
+      "#FDD6BC",
+      "#FDD9BF",
+      "#FDDBC2",
+      "#FDDBC5",
+      "#FEDEC6",
+      "#FEDEC8",
+      "#FEE0CC",
+      "#FEE3CF",
+      "#FEE3D2",
+      "#FEE6D3",
+      "#FEE6D5",
+      "#FEE8D9",
+      "#FEE8DC",
+      "#FEEBDD",
+      "#FEEBDF",
+      "#FEEDE3",
+      "#FEF0E6",
+      "#FEF0E9",
+      "#FEF2EA",
+      "#FEF2EC",
+      "#FF0000",
+      "#FF0A00",
+      "#FF1100",
+      "#FF1500",
+      "#FF1A00",
+      "#FF2000",
+      "#FF2700",
+      "#FF2F00",
+      "#FF3300",
+      "#FF3C00",
+      "#FF4100",
+      "#FF4600",
+      "#FF4D00",
+      "#FF5700",
+      "#FF6100",
+      "#FF6B00",
+      "#FF7500",
+      "#FF7D00",
+      "#FF8700",
+      "#FF9100",
+      "#FF9C00",
+      "#FFA600",
+      "#FFB000",
+      "#FFBA00",
+      "#FFC400",
+      "#FFCC00",
+      "#FFCF00",
+      "#FFD600",
+      "#FFE000",
+      "#FFEB00",
+      "#FFF500",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "sy",
+    "name": "Syria",
+    "colors": [
+      "#FFFFFF",
+      "#007A3D",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "sz",
+    "name": "Eswatini",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#333333",
+      "#3E5EB9",
+      "#A70000",
+      "#B10C0C",
+      "#B3B3B3",
+      "#FFD900"
+    ]
+  },
+  {
+    "code": "td",
+    "name": "Chad",
+    "colors": [
+      "#002664",
+      "#C60C30",
+      "#FECB00"
+    ]
+  },
+  {
+    "code": "tg",
+    "name": "Togo",
+    "colors": [
+      "#FFFFFF",
+      "#118600",
+      "#D80000",
+      "#FFE300"
+    ]
+  },
+  {
+    "code": "th",
+    "name": "Thailand",
+    "colors": [
+      "#2D2A4A",
+      "#A51931",
+      "#F4F5F8"
+    ]
+  },
+  {
+    "code": "tj",
+    "name": "Tajikistan",
+    "colors": [
+      "#FFFFFF",
+      "#006600",
+      "#CC0000",
+      "#F8C300"
+    ]
+  },
+  {
+    "code": "tl",
+    "name": "Timor-Leste",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#CB000F",
+      "#F8C00C"
+    ]
+  },
+  {
+    "code": "tm",
+    "name": "Turkmenistan",
+    "colors": [
+      "#FFFFFF",
+      "#00843D",
+      "#383739",
+      "#D22630",
+      "#FFC72C"
+    ]
+  },
+  {
+    "code": "tn",
+    "name": "Tunisia",
+    "colors": [
+      "#FFFFFF",
+      "#E70013"
+    ]
+  },
+  {
+    "code": "to",
+    "name": "Tonga",
+    "colors": [
+      "#FFFFFF",
+      "#C10000"
+    ]
+  },
+  {
+    "code": "tr",
+    "name": "Turkey",
+    "colors": [
+      "#FFFFFF",
+      "#E30A17"
+    ]
+  },
+  {
+    "code": "tt",
+    "name": "Trinidad and Tobago",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#E00000"
+    ]
+  },
+  {
+    "code": "tv",
+    "name": "Tuvalu",
+    "colors": [
+      "#FFFFFF",
+      "#009FCA",
+      "#012169",
+      "#C8102E",
+      "#FFF40D"
+    ]
+  },
+  {
+    "code": "tw",
+    "name": "Taiwan",
+    "colors": [
+      "#FFFFFF",
+      "#000095",
+      "#FF0000"
+    ]
+  },
+  {
+    "code": "tz",
+    "name": "Tanzania",
+    "colors": [
+      "#000001",
+      "#009900",
+      "#0099FF",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "ua",
+    "name": "Ukraine",
+    "colors": [
+      "#0057B8",
+      "#FFD700"
+    ]
+  },
+  {
+    "code": "ug",
+    "name": "Uganda",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#9CA69C",
+      "#DE3108",
+      "#DE3908",
+      "#FFE700",
+      "#FFFDFF"
+    ]
+  },
+  {
+    "code": "us",
+    "name": "United States",
+    "colors": [
+      "#FFFFFF",
+      "#192F5D",
+      "#BD3D44"
+    ]
+  },
+  {
+    "code": "uy",
+    "name": "Uruguay",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#0038A8",
+      "#FCD116"
+    ]
+  },
+  {
+    "code": "uz",
+    "name": "Uzbekistan",
+    "colors": [
+      "#FFFFFF",
+      "#0099B5",
+      "#1EB53A",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "va",
+    "name": "Vatican City",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#CCCCCC",
+      "#CE9D09",
+      "#FA0204",
+      "#FFE000"
+    ]
+  },
+  {
+    "code": "vc",
+    "name": "Saint Vincent and the Grenadines",
+    "colors": [
+      "#0058AA",
+      "#199A00",
+      "#F4F100"
+    ]
+  },
+  {
+    "code": "ve",
+    "name": "Venezuela",
+    "colors": [
+      "#FFFFFF",
+      "#00247D",
+      "#CF142B",
+      "#FFCC00"
+    ]
+  },
+  {
+    "code": "vn",
+    "name": "Vietnam",
+    "colors": [
+      "#DA251D",
+      "#FFFF00"
+    ]
+  },
+  {
+    "code": "vu",
+    "name": "Vanuatu",
+    "colors": [
+      "#000000",
+      "#009543",
+      "#D21034",
+      "#FDCE12"
+    ]
+  },
+  {
+    "code": "ws",
+    "name": "Samoa",
+    "colors": [
+      "#FFFFFF",
+      "#002B7F",
+      "#CE1126"
+    ]
+  },
+  {
+    "code": "ye",
+    "name": "Yemen",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#F10600"
+    ]
+  },
+  {
+    "code": "za",
+    "name": "South Africa",
+    "colors": [
+      "#FFFFFF",
+      "#000001",
+      "#000C8A",
+      "#007847",
+      "#E1392D",
+      "#FFB915"
+    ]
+  },
+  {
+    "code": "zm",
+    "name": "Zambia",
+    "colors": [
+      "#000000",
+      "#000001",
+      "#198A00",
+      "#DE2010",
+      "#EF7D00"
+    ]
+  },
+  {
+    "code": "zw",
+    "name": "Zimbabwe",
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#000001",
+      "#0000FF",
+      "#006400",
+      "#D40000",
+      "#FFCC00",
+      "#FFD200"
+    ]
+  }
+]

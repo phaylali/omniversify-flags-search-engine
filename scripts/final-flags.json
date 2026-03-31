@@ -3,15 +3,12 @@
     "name": "Andorra",
     "code": "ad",
     "colors": [
+      "#FFFFFF",
       "#0018A8",
       "#0065BD",
       "#703D29",
       "#C7B37F",
-      "#D0103A",
-      "#D52B1E",
-      "#FCD900",
-      "#FEDF00",
-      "#FFFFFF"
+      "#D0103A"
     ],
     "tabler": "andorra",
     "colorGroups": {
@@ -28,10 +25,10 @@
     "name": "United Arab Emirates",
     "code": "ae",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#00732F",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "united-arab-emirates",
     "colorGroups": {
@@ -48,11 +45,11 @@
     "name": "Afghanistan",
     "code": "af",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#009900",
       "#BD6B00",
-      "#BF0000",
-      "#FFFFFF"
+      "#BF0000"
     ],
     "tabler": "afghanistan",
     "colorGroups": {
@@ -69,11 +66,11 @@
     "name": "Antigua and Barbuda",
     "code": "ag",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#0072C6",
       "#CE1126",
-      "#FCD116",
-      "#FFFFFF"
+      "#FCD116"
     ],
     "tabler": "antigua-and-barbuda",
     "colorGroups": {
@@ -90,7 +87,7 @@
     "name": "Albania",
     "code": "al",
     "colors": [
-      "#000000",
+      "#000001",
       "#FF0000"
     ],
     "tabler": "albania",
@@ -128,6 +125,7 @@
     "code": "ao",
     "colors": [
       "#000000",
+      "#000001",
       "#FF0000",
       "#FFEC00",
       "#FFEE00"
@@ -147,11 +145,11 @@
     "name": "Argentina",
     "code": "ar",
     "colors": [
+      "#FFFFFF",
       "#74ACDF",
       "#843511",
       "#85340A",
-      "#F6B40E",
-      "#FFFFFF"
+      "#F6B40E"
     ],
     "tabler": "argentina",
     "colorGroups": {
@@ -168,8 +166,8 @@
     "name": "Austria",
     "code": "at",
     "colors": [
-      "#C8102E",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#C8102E"
     ],
     "tabler": "austria",
     "colorGroups": {
@@ -186,9 +184,9 @@
     "name": "Australia",
     "code": "au",
     "colors": [
+      "#FFFFFF",
       "#00008B",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "australia",
     "colorGroups": {
@@ -205,10 +203,10 @@
     "name": "Azerbaijan",
     "code": "az",
     "colors": [
+      "#FFFFFF",
       "#00B9E4",
       "#3F9C35",
-      "#ED2939",
-      "#FFFFFF"
+      "#ED2939"
     ],
     "tabler": "azerbaijan",
     "colorGroups": {
@@ -225,9 +223,9 @@
     "name": "Bosnia and Herzegovina",
     "code": "ba",
     "colors": [
+      "#FFFFFF",
       "#000099",
-      "#FFCC00",
-      "#FFFFFF"
+      "#FFCC00"
     ],
     "tabler": "bosnia-and-herzegovina",
     "colorGroups": {
@@ -244,7 +242,7 @@
     "name": "Barbados",
     "code": "bb",
     "colors": [
-      "#000000",
+      "#000001",
       "#00267F",
       "#FFC726"
     ],
@@ -281,7 +279,7 @@
     "name": "Belgium",
     "code": "be",
     "colors": [
-      "#000000",
+      "#000001",
       "#F31830",
       "#FFD90C"
     ],
@@ -319,9 +317,9 @@
     "name": "Bulgaria",
     "code": "bg",
     "colors": [
+      "#FFFFFF",
       "#00966E",
-      "#D62612",
-      "#FFFFFF"
+      "#D62612"
     ],
     "tabler": "bulgaria",
     "colorGroups": {
@@ -338,8 +336,8 @@
     "name": "Bahrain",
     "code": "bh",
     "colors": [
-      "#CE1126",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#CE1126"
     ],
     "tabler": "bahrain",
     "colorGroups": {
@@ -356,9 +354,9 @@
     "name": "Burundi",
     "code": "bi",
     "colors": [
+      "#FFFFFF",
       "#18B637",
-      "#CF0921",
-      "#FFFFFF"
+      "#CF0921"
     ],
     "tabler": "burundi",
     "colorGroups": {
@@ -395,10 +393,10 @@
     "name": "Brunei",
     "code": "bn",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#CF1126",
-      "#F7E017",
-      "#FFFFFF"
+      "#F7E017"
     ],
     "tabler": "brunei",
     "colorGroups": {
@@ -415,34 +413,12 @@
     "name": "Bolivia",
     "code": "bo",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#005000",
       "#007934",
       "#007A3D",
-      "#00A6DE",
-      "#00E519",
-      "#339900",
-      "#452C25",
-      "#574F4C",
-      "#5E3F17",
-      "#7A2E26",
-      "#842116",
-      "#A05A2C",
-      "#BD8759",
-      "#C6262C",
-      "#CCCCCF",
-      "#CCE5E5",
-      "#D52B1E",
-      "#D9C0B9",
-      "#DBA05F",
-      "#DCDDDE",
-      "#E7E7E7",
-      "#E8A30E",
-      "#EEEEEE",
-      "#F7E214",
-      "#FFE000",
-      "#FFE533",
-      "#FFFFFF"
+      "#00A6DE"
     ],
     "tabler": "bolivia",
     "colorGroups": {
@@ -459,13 +435,12 @@
     "name": "Brazil",
     "code": "br",
     "colors": [
+      "#FFFFFF",
       "#229E45",
       "#2B49A3",
       "#309E3A",
       "#F7FFFF",
-      "#F8E509",
-      "#FFFFEF",
-      "#FFFFFF"
+      "#F8E509"
     ],
     "tabler": "brazil",
     "colorGroups": {
@@ -482,10 +457,10 @@
     "name": "Bahamas",
     "code": "bs",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#08CED6",
-      "#FFE900",
-      "#FFFFFF"
+      "#FFE900"
     ],
     "tabler": "bahamas",
     "colorGroups": {
@@ -502,10 +477,10 @@
     "name": "Bhutan",
     "code": "bt",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#FF4E12",
-      "#FFD520",
-      "#FFFFFF"
+      "#FFD520"
     ],
     "tabler": "bhutan",
     "colorGroups": {
@@ -522,9 +497,9 @@
     "name": "Botswana",
     "code": "bw",
     "colors": [
-      "#000000",
-      "#00CBFF",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#000001",
+      "#00CBFF"
     ],
     "tabler": "botswana",
     "colorGroups": {
@@ -541,9 +516,9 @@
     "name": "Belarus",
     "code": "by",
     "colors": [
+      "#FFFFFF",
       "#007C30",
-      "#CE1720",
-      "#FFFFFF"
+      "#CE1720"
     ],
     "tabler": "belarus",
     "colorGroups": {
@@ -560,36 +535,12 @@
     "name": "Belize",
     "code": "bz",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#003300",
       "#003F87",
-      "#004B00",
-      "#005800",
-      "#006600",
-      "#006AC8",
-      "#007F00",
-      "#289400",
-      "#552300",
-      "#570A00",
-      "#5AC800",
-      "#6699FF",
-      "#730000",
-      "#782121",
-      "#7E4B7E",
-      "#952D1A",
-      "#9B5F00",
-      "#9DD7FF",
-      "#B34B00",
-      "#CCB8C8",
-      "#CE1126",
-      "#EA5700",
-      "#FF0018",
-      "#FFA54B",
-      "#FFB366",
-      "#FFD800",
-      "#FFD83C",
-      "#FFEF5D",
-      "#FFFFFF"
+      "#004B00"
     ],
     "tabler": "belize",
     "colorGroups": {
@@ -606,8 +557,8 @@
     "name": "Canada",
     "code": "ca",
     "colors": [
-      "#D52B1E",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#D52B1E"
     ],
     "tabler": "canada",
     "colorGroups": {
@@ -643,11 +594,11 @@
     "name": "Central African Republic",
     "code": "cf",
     "colors": [
+      "#FFFFFF",
       "#0000FF",
       "#009A00",
       "#FF0000",
-      "#FFFF00",
-      "#FFFFFF"
+      "#FFFF00"
     ],
     "tabler": "central-african-republic",
     "colorGroups": {
@@ -683,8 +634,8 @@
     "name": "Switzerland",
     "code": "ch",
     "colors": [
-      "#FF0000",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#FF0000"
     ],
     "tabler": "switzerland",
     "colorGroups": {
@@ -698,12 +649,12 @@
     }
   },
   {
-    "name": "CI",
+    "name": "Ivory Coast",
     "code": "ci",
     "colors": [
+      "#FFFFFF",
       "#00CD00",
-      "#FF9A00",
-      "#FFFFFF"
+      "#FF9A00"
     ],
     "tabler": "ivory-coast",
     "colorGroups": {
@@ -720,9 +671,9 @@
     "name": "Chile",
     "code": "cl",
     "colors": [
+      "#FFFFFF",
       "#0039A6",
-      "#D52B1E",
-      "#FFFFFF"
+      "#D52B1E"
     ],
     "tabler": "chile",
     "colorGroups": {
@@ -795,9 +746,9 @@
     "name": "Costa Rica",
     "code": "cr",
     "colors": [
+      "#FFFFFF",
       "#0000B4",
-      "#D90000",
-      "#FFFFFF"
+      "#D90000"
     ],
     "tabler": "costa-rica",
     "colorGroups": {
@@ -814,9 +765,9 @@
     "name": "Cuba",
     "code": "cu",
     "colors": [
+      "#FFFFFF",
       "#002A8F",
-      "#CB1515",
-      "#FFFFFF"
+      "#CB1515"
     ],
     "tabler": "cuba",
     "colorGroups": {
@@ -830,13 +781,13 @@
     }
   },
   {
-    "name": "Cape Verde",
+    "name": "Cabo Verde",
     "code": "cv",
     "colors": [
+      "#FFFFFF",
       "#081873",
       "#DE3929",
-      "#FFCE08",
-      "#FFFFFF"
+      "#FFCE08"
     ],
     "tabler": "cape-verde",
     "colorGroups": {
@@ -853,9 +804,9 @@
     "name": "Cyprus",
     "code": "cy",
     "colors": [
+      "#FFFFFF",
       "#435125",
-      "#D47600",
-      "#FFFFFF"
+      "#D47600"
     ],
     "tabler": "cyprus",
     "colorGroups": {
@@ -872,9 +823,9 @@
     "name": "Czechia",
     "code": "cz",
     "colors": [
+      "#FFFFFF",
       "#11457E",
-      "#D7141A",
-      "#FFFFFF"
+      "#D7141A"
     ],
     "tabler": "czech-republic",
     "colorGroups": {
@@ -891,7 +842,7 @@
     "name": "Germany",
     "code": "de",
     "colors": [
-      "#000000",
+      "#000001",
       "#FF0000",
       "#FFCC00"
     ],
@@ -930,8 +881,8 @@
     "name": "Denmark",
     "code": "dk",
     "colors": [
-      "#C8102E",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#C8102E"
     ],
     "tabler": "denmark",
     "colorGroups": {
@@ -948,18 +899,12 @@
     "name": "Dominica",
     "code": "dm",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#009200",
       "#108C00",
-      "#804BFF",
-      "#A95600",
-      "#C90000",
-      "#E72910",
-      "#FF0000",
-      "#FFD600",
-      "#FFE700",
-      "#FFFF00",
-      "#FFFFFF"
+      "#804BFF"
     ],
     "tabler": "dominica",
     "colorGroups": {
@@ -976,20 +921,12 @@
     "name": "Dominican Republic",
     "code": "do",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#002D62",
       "#006300",
-      "#00863D",
-      "#00873F",
-      "#008F4C",
-      "#201B18",
-      "#808000",
-      "#AA241E",
-      "#CE1126",
-      "#EAC102",
-      "#FF0000",
-      "#FFFF00",
-      "#FFFFFF"
+      "#00863D"
     ],
     "tabler": "dominican-republic",
     "colorGroups": {
@@ -1006,9 +943,9 @@
     "name": "Algeria",
     "code": "dz",
     "colors": [
+      "#FFFFFF",
       "#006233",
-      "#D21034",
-      "#FFFFFF"
+      "#D21034"
     ],
     "tabler": "algeria",
     "colorGroups": {
@@ -1025,29 +962,12 @@
     "name": "Ecuador",
     "code": "ec",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#0000C4",
       "#00148E",
       "#005B00",
-      "#38A9F9",
-      "#772600",
-      "#782600",
-      "#808080",
-      "#812E00",
-      "#908F8A",
-      "#984000",
-      "#A7CFFF",
-      "#AFFF7B",
-      "#B74D00",
-      "#B7E1FF",
-      "#CECECC",
-      "#DA0010",
-      "#E10000",
-      "#FEDE00",
-      "#FF0000",
-      "#FFDF00",
-      "#FFE800",
-      "#FFFFFF"
+      "#38A9F9"
     ],
     "tabler": "ecuador",
     "colorGroups": {
@@ -1064,9 +984,9 @@
     "name": "Estonia",
     "code": "ee",
     "colors": [
-      "#000000",
-      "#1791FF",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#000001",
+      "#1791FF"
     ],
     "tabler": "estonia",
     "colorGroups": {
@@ -1083,10 +1003,10 @@
     "name": "Egypt",
     "code": "eg",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#C09300",
-      "#CE1126",
-      "#FFFFFF"
+      "#CE1126"
     ],
     "tabler": "egypt",
     "colorGroups": {
@@ -1123,20 +1043,12 @@
     "name": "Spain",
     "code": "es",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#0039F0",
       "#005BBF",
       "#058E6E",
-      "#AA151B",
-      "#AD1519",
-      "#C7B500",
-      "#C8B100",
-      "#CCCCCC",
-      "#DB4446",
-      "#ED72AA",
-      "#F1BF00",
-      "#FFD691",
-      "#FFFFFF"
+      "#AA151B"
     ],
     "tabler": "spain",
     "colorGroups": {
@@ -1173,8 +1085,8 @@
     "name": "Finland",
     "code": "fi",
     "colors": [
-      "#002F6C",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#002F6C"
     ],
     "tabler": "finland",
     "colorGroups": {
@@ -1191,16 +1103,12 @@
     "name": "Fiji",
     "code": "fj",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#00A651",
       "#012169",
-      "#68BFE5",
-      "#964B36",
-      "#C8102E",
-      "#D21034",
-      "#FFD100",
-      "#FFF200",
-      "#FFFFFF"
+      "#68BFE5"
     ],
     "tabler": "fiji",
     "colorGroups": {
@@ -1217,8 +1125,8 @@
     "name": "Micronesia",
     "code": "fm",
     "colors": [
-      "#6797D6",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#6797D6"
     ],
     "tabler": "micronesia",
     "colorGroups": {
@@ -1235,9 +1143,9 @@
     "name": "France",
     "code": "fr",
     "colors": [
+      "#FFFFFF",
       "#000091",
-      "#E1000F",
-      "#FFFFFF"
+      "#E1000F"
     ],
     "tabler": "france",
     "colorGroups": {
@@ -1273,9 +1181,9 @@
     "name": "United Kingdom",
     "code": "gb",
     "colors": [
+      "#FFFFFF",
       "#012169",
-      "#C8102E",
-      "#FFFFFF"
+      "#C8102E"
     ],
     "tabler": "united-kingdom",
     "colorGroups": {
@@ -1311,8 +1219,8 @@
     "name": "Georgia",
     "code": "ge",
     "colors": [
-      "#FF0000",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#FF0000"
     ],
     "tabler": "georgia",
     "colorGroups": {
@@ -1329,7 +1237,7 @@
     "name": "Ghana",
     "code": "gh",
     "colors": [
-      "#000000",
+      "#000001",
       "#006B3F",
       "#CE1126",
       "#FCD116"
@@ -1349,10 +1257,10 @@
     "name": "Gambia",
     "code": "gm",
     "colors": [
+      "#FFFFFF",
       "#000099",
       "#009900",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "gambia",
     "colorGroups": {
@@ -1388,15 +1296,12 @@
     "name": "Equatorial Guinea",
     "code": "gq",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#0073CE",
       "#009A3B",
       "#3E9A00",
-      "#73452B",
-      "#A36629",
-      "#E32118",
-      "#FFD700",
-      "#FFFFFF"
+      "#73452B"
     ],
     "tabler": "equatorial-guinea",
     "colorGroups": {
@@ -1413,8 +1318,8 @@
     "name": "Greece",
     "code": "gr",
     "colors": [
-      "#0D5EAF",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#0D5EAF"
     ],
     "tabler": "greece",
     "colorGroups": {
@@ -1431,29 +1336,12 @@
     "name": "Guatemala",
     "code": "gt",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#24420E",
       "#34541F",
       "#351710",
-      "#406325",
-      "#448127",
-      "#485654",
-      "#4997D0",
-      "#4C0505",
-      "#511124",
-      "#67923D",
-      "#6C301E",
-      "#8C959D",
-      "#999270",
-      "#A08307",
-      "#A50A0A",
-      "#B07E09",
-      "#B2B6BA",
-      "#BA1F3E",
-      "#EAC102",
-      "#F9F0AA",
-      "#FAB81C",
-      "#FFFFFF"
+      "#406325"
     ],
     "tabler": "guatemala",
     "colorGroups": {
@@ -1470,7 +1358,7 @@
     "name": "Guinea-Bissau",
     "code": "gw",
     "colors": [
-      "#000000",
+      "#000001",
       "#009E49",
       "#CE1126",
       "#FCD116"
@@ -1490,11 +1378,11 @@
     "name": "Guyana",
     "code": "gy",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#399408",
       "#DE2110",
-      "#FFDE08",
-      "#FFFFFF"
+      "#FFDE08"
     ],
     "tabler": "guyana",
     "colorGroups": {
@@ -1511,8 +1399,8 @@
     "name": "Honduras",
     "code": "hn",
     "colors": [
-      "#18C3DF",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#18C3DF"
     ],
     "tabler": "honduras",
     "colorGroups": {
@@ -1529,12 +1417,12 @@
     "name": "Croatia",
     "code": "hr",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#0093DD",
       "#171796",
       "#F7DB17",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "croatia",
     "colorGroups": {
@@ -1551,15 +1439,12 @@
     "name": "Haiti",
     "code": "ht",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#00209F",
       "#016A16",
-      "#0A328C",
-      "#503200",
-      "#D20014",
-      "#D21034",
-      "#F1B517",
-      "#FFFFFF"
+      "#0A328C"
     ],
     "tabler": "haiti",
     "colorGroups": {
@@ -1576,9 +1461,9 @@
     "name": "Hungary",
     "code": "hu",
     "colors": [
+      "#FFFFFF",
       "#388D00",
-      "#D43516",
-      "#FFFFFF"
+      "#D43516"
     ],
     "tabler": "hungary",
     "colorGroups": {
@@ -1595,8 +1480,8 @@
     "name": "Indonesia",
     "code": "id",
     "colors": [
-      "#E70011",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#E70011"
     ],
     "tabler": "indonesia",
     "colorGroups": {
@@ -1613,9 +1498,9 @@
     "name": "Ireland",
     "code": "ie",
     "colors": [
+      "#FFFFFF",
       "#009A49",
-      "#FF7900",
-      "#FFFFFF"
+      "#FF7900"
     ],
     "tabler": "ireland",
     "colorGroups": {
@@ -1632,10 +1517,10 @@
     "name": "India",
     "code": "in",
     "colors": [
+      "#FFFFFF",
       "#000088",
       "#128807",
-      "#FF9933",
-      "#FFFFFF"
+      "#FF9933"
     ],
     "tabler": "india",
     "colorGroups": {
@@ -1652,10 +1537,10 @@
     "name": "Iraq",
     "code": "iq",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#007A3D",
-      "#CE1126",
-      "#FFFFFF"
+      "#CE1126"
     ],
     "tabler": "iraq",
     "colorGroups": {
@@ -1672,11 +1557,11 @@
     "name": "Iran",
     "code": "ir",
     "colors": [
+      "#FFFFFF",
       "#239E3F",
       "#239F40",
       "#D90000",
-      "#DA0000",
-      "#FFFFFF"
+      "#DA0000"
     ],
     "tabler": "iran",
     "colorGroups": {
@@ -1693,9 +1578,9 @@
     "name": "Iceland",
     "code": "is",
     "colors": [
+      "#FFFFFF",
       "#003897",
-      "#D72828",
-      "#FFFFFF"
+      "#D72828"
     ],
     "tabler": "iceland",
     "colorGroups": {
@@ -1712,9 +1597,9 @@
     "name": "Italy",
     "code": "it",
     "colors": [
+      "#FFFFFF",
       "#009246",
-      "#CE2B37",
-      "#FFFFFF"
+      "#CE2B37"
     ],
     "tabler": "italy",
     "colorGroups": {
@@ -1731,7 +1616,7 @@
     "name": "Jamaica",
     "code": "jm",
     "colors": [
-      "#000000",
+      "#000001",
       "#009900",
       "#FFCC00"
     ],
@@ -1750,10 +1635,10 @@
     "name": "Jordan",
     "code": "jo",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#009900",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "jordan",
     "colorGroups": {
@@ -1770,8 +1655,8 @@
     "name": "Japan",
     "code": "jp",
     "colors": [
-      "#BC002D",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#BC002D"
     ],
     "tabler": "japan",
     "colorGroups": {
@@ -1788,10 +1673,11 @@
     "name": "Kenya",
     "code": "ke",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#006600",
-      "#BB0000",
-      "#FFFFFF"
+      "#BB0000"
     ],
     "tabler": "kenya",
     "colorGroups": {
@@ -1826,10 +1712,10 @@
     "name": "Cambodia",
     "code": "kh",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#032EA1",
-      "#E00025",
-      "#FFFFFF"
+      "#E00025"
     ],
     "tabler": "cambodia",
     "colorGroups": {
@@ -1846,13 +1732,12 @@
     "name": "Kiribati",
     "code": "ki",
     "colors": [
+      "#FFFFFF",
       "#005989",
       "#D8AA3F",
       "#D9A43E",
       "#E73E2D",
-      "#FEC74A",
-      "#FFC84B",
-      "#FFFFFF"
+      "#FEC74A"
     ],
     "tabler": "kiribati",
     "colorGroups": {
@@ -1869,11 +1754,11 @@
     "name": "Comoros",
     "code": "km",
     "colors": [
+      "#FFFFFF",
       "#239E46",
       "#3B5AA3",
       "#BE0027",
-      "#FFFF00",
-      "#FFFFFF"
+      "#FFFF00"
     ],
     "tabler": "comoros",
     "colorGroups": {
@@ -1890,11 +1775,11 @@
     "name": "Saint Kitts and Nevis",
     "code": "kn",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#35A100",
       "#C70000",
-      "#FFE900",
-      "#FFFFFF"
+      "#FFE900"
     ],
     "tabler": "saint-kitts-and-nevis",
     "colorGroups": {
@@ -1911,11 +1796,11 @@
     "name": "North Korea",
     "code": "kp",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#3E5698",
       "#C40000",
-      "#C60000",
-      "#FFFFFF"
+      "#C60000"
     ],
     "tabler": "north-korea",
     "colorGroups": {
@@ -1932,10 +1817,10 @@
     "name": "South Korea",
     "code": "kr",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#0047A0",
-      "#CD2E3A",
-      "#FFFFFF"
+      "#CD2E3A"
     ],
     "tabler": "south-korea",
     "colorGroups": {
@@ -1952,10 +1837,10 @@
     "name": "Kuwait",
     "code": "kw",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#00D941",
-      "#F31830",
-      "#FFFFFF"
+      "#F31830"
     ],
     "tabler": "kuwait",
     "colorGroups": {
@@ -1990,9 +1875,9 @@
     "name": "Laos",
     "code": "la",
     "colors": [
+      "#FFFFFF",
       "#002868",
-      "#CE1126",
-      "#FFFFFF"
+      "#CE1126"
     ],
     "tabler": "laos",
     "colorGroups": {
@@ -2009,9 +1894,9 @@
     "name": "Lebanon",
     "code": "lb",
     "colors": [
+      "#FFFFFF",
       "#00A850",
-      "#EE161F",
-      "#FFFFFF"
+      "#EE161F"
     ],
     "tabler": "lebanon",
     "colorGroups": {
@@ -2028,10 +1913,10 @@
     "name": "Saint Lucia",
     "code": "lc",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#65CFFF",
-      "#FFCE00",
-      "#FFFFFF"
+      "#FFCE00"
     ],
     "tabler": "saint-lucia",
     "colorGroups": {
@@ -2049,6 +1934,7 @@
     "code": "li",
     "colors": [
       "#000000",
+      "#000001",
       "#002B7F",
       "#CE1126",
       "#FFD83D"
@@ -2069,6 +1955,7 @@
     "code": "lk",
     "colors": [
       "#000000",
+      "#000001",
       "#005641",
       "#8D2029",
       "#FF5B00",
@@ -2089,9 +1976,9 @@
     "name": "Liberia",
     "code": "lr",
     "colors": [
+      "#FFFFFF",
       "#000066",
-      "#CC0000",
-      "#FFFFFF"
+      "#CC0000"
     ],
     "tabler": "liberia",
     "colorGroups": {
@@ -2108,10 +1995,10 @@
     "name": "Lesotho",
     "code": "ls",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#00209F",
-      "#009543",
-      "#FFFFFF"
+      "#009543"
     ],
     "tabler": "lesotho",
     "colorGroups": {
@@ -2147,9 +2034,9 @@
     "name": "Luxembourg",
     "code": "lu",
     "colors": [
+      "#FFFFFF",
       "#00A1DE",
-      "#ED2939",
-      "#FFFFFF"
+      "#ED2939"
     ],
     "tabler": "luxembourg",
     "colorGroups": {
@@ -2166,8 +2053,8 @@
     "name": "Latvia",
     "code": "lv",
     "colors": [
-      "#981E32",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#981E32"
     ],
     "tabler": "latvia",
     "colorGroups": {
@@ -2184,10 +2071,10 @@
     "name": "Libya",
     "code": "ly",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#239E46",
-      "#E70013",
-      "#FFFFFF"
+      "#E70013"
     ],
     "tabler": "libya",
     "colorGroups": {
@@ -2222,8 +2109,8 @@
     "name": "Monaco",
     "code": "mc",
     "colors": [
-      "#F31830",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#F31830"
     ],
     "tabler": "monaco",
     "colorGroups": {
@@ -2245,14 +2132,7 @@
       "#008500",
       "#008F00",
       "#564DFF",
-      "#A77B3B",
-      "#CAC9C7",
-      "#DA4500",
-      "#DE2110",
-      "#FF0000",
-      "#FF1900",
-      "#FFDE00",
-      "#FFFF00"
+      "#A77B3B"
     ],
     "tabler": "moldova",
     "colorGroups": {
@@ -2274,8 +2154,7 @@
       "#B96B29",
       "#C40308",
       "#C52126",
-      "#D3AE3B",
-      "#D4AF3A"
+      "#D3AE3B"
     ],
     "tabler": "montenegro",
     "colorGroups": {
@@ -2292,9 +2171,9 @@
     "name": "Madagascar",
     "code": "mg",
     "colors": [
+      "#FFFFFF",
       "#007E3A",
-      "#FC3D32",
-      "#FFFFFF"
+      "#FC3D32"
     ],
     "tabler": "madagascar",
     "colorGroups": {
@@ -2311,9 +2190,9 @@
     "name": "Marshall Islands",
     "code": "mh",
     "colors": [
+      "#FFFFFF",
       "#3B5AA3",
-      "#E2AE57",
-      "#FFFFFF"
+      "#E2AE57"
     ],
     "tabler": "marshall-islands",
     "colorGroups": {
@@ -2367,10 +2246,10 @@
     "name": "Myanmar",
     "code": "mm",
     "colors": [
+      "#FFFFFF",
       "#34B233",
       "#EA2839",
-      "#FECB00",
-      "#FFFFFF"
+      "#FECB00"
     ],
     "tabler": "myanmar",
     "colorGroups": {
@@ -2425,9 +2304,9 @@
     "name": "Malta",
     "code": "mt",
     "colors": [
+      "#FFFFFF",
       "#000000",
-      "#CF142B",
-      "#FFFFFF"
+      "#CF142B"
     ],
     "tabler": "malta",
     "colorGroups": {
@@ -2464,9 +2343,9 @@
     "name": "Maldives",
     "code": "mv",
     "colors": [
+      "#FFFFFF",
       "#007E3A",
-      "#D21034",
-      "#FFFFFF"
+      "#D21034"
     ],
     "tabler": "maldives",
     "colorGroups": {
@@ -2483,7 +2362,7 @@
     "name": "Malawi",
     "code": "mw",
     "colors": [
-      "#000000",
+      "#000001",
       "#21873B",
       "#F31509",
       "#F41408"
@@ -2503,68 +2382,12 @@
     "name": "Mexico",
     "code": "mx",
     "colors": [
+      "#FFFFFF",
       "#006847",
       "#016848",
       "#04534E",
       "#0872A7",
-      "#0C8489",
-      "#171717",
-      "#1C242F",
-      "#1E2121",
-      "#202020",
-      "#202220",
-      "#231F20",
-      "#30C2DC",
-      "#312317",
-      "#404118",
-      "#45392D",
-      "#4B4139",
-      "#4D2A15",
-      "#513625",
-      "#5C3818",
-      "#5C3A1D",
-      "#6C3F18",
-      "#6C4119",
-      "#6F5B24",
-      "#717732",
-      "#78732E",
-      "#803F1D",
-      "#816C2A",
-      "#874F20",
-      "#8B441F",
-      "#8B5122",
-      "#8CBEBF",
-      "#8F4620",
-      "#904720",
-      "#953220",
-      "#977C2E",
-      "#9CA168",
-      "#A8AC71",
-      "#AA8C30",
-      "#AB6D29",
-      "#AF7029",
-      "#B07229",
-      "#B27129",
-      "#BF802D",
-      "#C6C7A6",
-      "#CD202A",
-      "#CE1126",
-      "#D2A567",
-      "#D5D3CA",
-      "#DBAD6C",
-      "#E92736",
-      "#F15770",
-      "#F16E16",
-      "#F1A720",
-      "#F7E204",
-      "#F8C83C",
-      "#F9AA51",
-      "#F9C83A",
-      "#FCCA3D",
-      "#FCCA3E",
-      "#FCF3D8",
-      "#FDEAAF",
-      "#FFFFFF"
+      "#0C8489"
     ],
     "tabler": "mexico",
     "colorGroups": {
@@ -2581,10 +2404,10 @@
     "name": "Malaysia",
     "code": "my",
     "colors": [
+      "#FFFFFF",
       "#000066",
       "#CC0000",
-      "#FFCC00",
-      "#FFFFFF"
+      "#FFCC00"
     ],
     "tabler": "malaysia",
     "colorGroups": {
@@ -2601,11 +2424,12 @@
     "name": "Mozambique",
     "code": "mz",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#009A00",
       "#FF0000",
-      "#FFCA00",
-      "#FFFFFF"
+      "#FFCA00"
     ],
     "tabler": "mozambique",
     "colorGroups": {
@@ -2622,11 +2446,11 @@
     "name": "Namibia",
     "code": "na",
     "colors": [
+      "#FFFFFF",
       "#3662A2",
       "#38A100",
       "#C70000",
-      "#FFE700",
-      "#FFFFFF"
+      "#FFE700"
     ],
     "tabler": "namibia",
     "colorGroups": {
@@ -2643,18 +2467,18 @@
     "name": "Niger",
     "code": "ne",
     "colors": [
+      "#FFFFFF",
       "#0DB02B",
-      "#E05206",
-      "#FFFFFF"
+      "#E05206"
     ],
     "tabler": "niger",
     "colorGroups": {
-      "red": false,
+      "red": true,
       "blue": false,
       "green": true,
-      "yellow": false,
-      "orange": true,
-      "white": true,
+      "yellow": true,
+      "orange": false,
+      "white": false,
       "black": false
     }
   },
@@ -2662,8 +2486,8 @@
     "name": "Nigeria",
     "code": "ng",
     "colors": [
-      "#008753",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#008753"
     ],
     "tabler": "nigeria",
     "colorGroups": {
@@ -2680,32 +2504,12 @@
     "name": "Nicaragua",
     "code": "ni",
     "colors": [
+      "#FFFFFF",
       "#0000FF",
       "#002255",
       "#0044AA",
       "#0067C6",
-      "#00CCFF",
-      "#00FF00",
-      "#17C0EB",
-      "#510000",
-      "#800080",
-      "#8A0000",
-      "#910000",
-      "#93BC30",
-      "#97C924",
-      "#9ECB34",
-      "#AA0000",
-      "#C6CB24",
-      "#C8A400",
-      "#CCD11E",
-      "#EDE71F",
-      "#F5F549",
-      "#FF0000",
-      "#FF2A2A",
-      "#FF3A3A",
-      "#FF6600",
-      "#FFFF00",
-      "#FFFFFF"
+      "#00CCFF"
     ],
     "tabler": "nicaragua",
     "colorGroups": {
@@ -2722,9 +2526,9 @@
     "name": "Netherlands",
     "code": "nl",
     "colors": [
+      "#FFFFFF",
       "#21468B",
-      "#AE1C28",
-      "#FFFFFF"
+      "#AE1C28"
     ],
     "tabler": "netherlands",
     "colorGroups": {
@@ -2741,9 +2545,9 @@
     "name": "Norway",
     "code": "no",
     "colors": [
+      "#FFFFFF",
       "#002664",
-      "#ED2939",
-      "#FFFFFF"
+      "#ED2939"
     ],
     "tabler": "norway",
     "colorGroups": {
@@ -2760,9 +2564,9 @@
     "name": "Nepal",
     "code": "np",
     "colors": [
+      "#FFFFFF",
       "#000063",
-      "#CE0000",
-      "#FFFFFF"
+      "#CE0000"
     ],
     "tabler": "nepal",
     "colorGroups": {
@@ -2779,9 +2583,9 @@
     "name": "Nauru",
     "code": "nr",
     "colors": [
+      "#FFFFFF",
       "#002170",
-      "#FFB20D",
-      "#FFFFFF"
+      "#FFB20D"
     ],
     "tabler": "nauru",
     "colorGroups": {
@@ -2798,11 +2602,11 @@
     "name": "New Zealand",
     "code": "nz",
     "colors": [
+      "#FFFFFF",
       "#00247D",
       "#012169",
       "#C8102E",
-      "#CC142B",
-      "#FFFFFF"
+      "#CC142B"
     ],
     "tabler": "new-zealand",
     "colorGroups": {
@@ -2819,11 +2623,11 @@
     "name": "Oman",
     "code": "om",
     "colors": [
+      "#FFFFFF",
       "#009025",
       "#EF0000",
       "#EF2D28",
-      "#EF2D29",
-      "#FFFFFF"
+      "#EF2D29"
     ],
     "tabler": "oman",
     "colorGroups": {
@@ -2840,10 +2644,10 @@
     "name": "Panama",
     "code": "pa",
     "colors": [
+      "#FFFFFF",
       "#0000AB",
       "#D80000",
-      "#DB0000",
-      "#FFFFFF"
+      "#DB0000"
     ],
     "tabler": "panama",
     "colorGroups": {
@@ -2860,8 +2664,8 @@
     "name": "Peru",
     "code": "pe",
     "colors": [
-      "#D91023",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#D91023"
     ],
     "tabler": "peru",
     "colorGroups": {
@@ -2878,10 +2682,10 @@
     "name": "Papua New Guinea",
     "code": "pg",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#FF0000",
-      "#FFCC00",
-      "#FFFFFF"
+      "#FFCC00"
     ],
     "tabler": "papua-new-guinea",
     "colorGroups": {
@@ -2898,10 +2702,10 @@
     "name": "Philippines",
     "code": "ph",
     "colors": [
+      "#FFFFFF",
       "#0038A8",
       "#CE1126",
-      "#FCD116",
-      "#FFFFFF"
+      "#FCD116"
     ],
     "tabler": "philippines",
     "colorGroups": {
@@ -2918,8 +2722,8 @@
     "name": "Pakistan",
     "code": "pk",
     "colors": [
-      "#0C590B",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#0C590B"
     ],
     "tabler": "pakistan",
     "colorGroups": {
@@ -2936,8 +2740,8 @@
     "name": "Poland",
     "code": "pl",
     "colors": [
-      "#DC143C",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#DC143C"
     ],
     "tabler": "poland",
     "colorGroups": {
@@ -2954,9 +2758,9 @@
     "name": "Palestine",
     "code": "ps",
     "colors": [
+      "#FFFFFF",
       "#009639",
-      "#ED2E38",
-      "#FFFFFF"
+      "#ED2E38"
     ],
     "tabler": "palestine",
     "colorGroups": {
@@ -2973,12 +2777,12 @@
     "name": "Portugal",
     "code": "pt",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#003399",
       "#006600",
-      "#FF0000",
-      "#FFFF00",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "portugal",
     "colorGroups": {
@@ -3013,12 +2817,12 @@
     "name": "Paraguay",
     "code": "py",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#0038A8",
       "#009B3A",
       "#D52B1E",
-      "#FEDF00",
-      "#FFFFFF"
+      "#FEDF00"
     ],
     "tabler": "paraguay",
     "colorGroups": {
@@ -3035,8 +2839,8 @@
     "name": "Qatar",
     "code": "qa",
     "colors": [
-      "#8D1B3D",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#8D1B3D"
     ],
     "tabler": "qatar",
     "colorGroups": {
@@ -3072,11 +2876,11 @@
     "name": "Serbia",
     "code": "rs",
     "colors": [
+      "#FFFFFF",
       "#0C4076",
       "#21231E",
       "#C6363C",
-      "#EDB92E",
-      "#FFFFFF"
+      "#EDB92E"
     ],
     "tabler": "serbia",
     "colorGroups": {
@@ -3093,9 +2897,9 @@
     "name": "Russia",
     "code": "ru",
     "colors": [
+      "#FFFFFF",
       "#0039A6",
-      "#D52B1E",
-      "#FFFFFF"
+      "#D52B1E"
     ],
     "tabler": "russia",
     "colorGroups": {
@@ -3132,8 +2936,8 @@
     "name": "Saudi Arabia",
     "code": "sa",
     "colors": [
-      "#165D31",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#165D31"
     ],
     "tabler": "saudi-arabia",
     "colorGroups": {
@@ -3150,10 +2954,10 @@
     "name": "Solomon Islands",
     "code": "sb",
     "colors": [
+      "#FFFFFF",
       "#0000D6",
       "#006000",
-      "#FFCC00",
-      "#FFFFFF"
+      "#FFCC00"
     ],
     "tabler": "solomon-islands",
     "colorGroups": {
@@ -3170,11 +2974,11 @@
     "name": "Seychelles",
     "code": "sc",
     "colors": [
+      "#FFFFFF",
       "#003D88",
       "#007A39",
       "#D92223",
-      "#FCD955",
-      "#FFFFFF"
+      "#FCD955"
     ],
     "tabler": "seychelles",
     "colorGroups": {
@@ -3191,10 +2995,10 @@
     "name": "Sudan",
     "code": "sd",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#009A00",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "sudan",
     "colorGroups": {
@@ -3229,8 +3033,8 @@
     "name": "Singapore",
     "code": "sg",
     "colors": [
-      "#DF0000",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#DF0000"
     ],
     "tabler": "singapore",
     "colorGroups": {
@@ -3247,10 +3051,10 @@
     "name": "Slovenia",
     "code": "si",
     "colors": [
+      "#FFFFFF",
       "#0000BF",
       "#D50000",
-      "#FFDF00",
-      "#FFFFFF"
+      "#FFDF00"
     ],
     "tabler": "slovenia",
     "colorGroups": {
@@ -3267,9 +3071,9 @@
     "name": "Slovakia",
     "code": "sk",
     "colors": [
+      "#FFFFFF",
       "#0B4EA2",
-      "#EE1C25",
-      "#FFFFFF"
+      "#EE1C25"
     ],
     "tabler": "slovakia",
     "colorGroups": {
@@ -3286,9 +3090,9 @@
     "name": "Sierra Leone",
     "code": "sl",
     "colors": [
+      "#FFFFFF",
       "#0000CD",
-      "#00CD00",
-      "#FFFFFF"
+      "#00CD00"
     ],
     "tabler": "sierra-leone",
     "colorGroups": {
@@ -3305,28 +3109,12 @@
     "name": "San Marino",
     "code": "sm",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#004100",
       "#006800",
       "#00A400",
-      "#19B6EF",
-      "#3A9D4F",
-      "#4FD46B",
-      "#65C7FF",
-      "#68300E",
-      "#7D6C00",
-      "#8FC753",
-      "#9D4916",
-      "#A8A8A8",
-      "#A9A9A9",
-      "#AC0000",
-      "#B97700",
-      "#C76E2E",
-      "#E40000",
-      "#E9BF00",
-      "#FFDD00",
-      "#FFE100",
-      "#FFFFFF"
+      "#19B6EF"
     ],
     "tabler": "san-marino",
     "colorGroups": {
@@ -3362,8 +3150,8 @@
     "name": "Somalia",
     "code": "so",
     "colors": [
-      "#40A6FF",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#40A6FF"
     ],
     "tabler": "somalia",
     "colorGroups": {
@@ -3380,10 +3168,10 @@
     "name": "Suriname",
     "code": "sr",
     "colors": [
+      "#FFFFFF",
       "#377E3F",
       "#B40A2D",
-      "#ECC81D",
-      "#FFFFFF"
+      "#ECC81D"
     ],
     "tabler": "suriname",
     "colorGroups": {
@@ -3400,12 +3188,12 @@
     "name": "South Sudan",
     "code": "ss",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#078930",
       "#0F47AF",
       "#DA121A",
-      "#FCDD09",
-      "#FFFFFF"
+      "#FCDD09"
     ],
     "tabler": "south-sudan",
     "colorGroups": {
@@ -3422,7 +3210,7 @@
     "name": "Sao Tome and Principe",
     "code": "st",
     "colors": [
-      "#000000",
+      "#000001",
       "#12AD2B",
       "#D21034",
       "#FFCE00"
@@ -3442,43 +3230,12 @@
     "name": "El Salvador",
     "code": "sv",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#00209F",
       "#00633B",
       "#007E93",
-      "#011322",
-      "#032C4D",
-      "#064374",
-      "#0671B0",
-      "#172D91",
-      "#17808B",
-      "#1A258D",
-      "#1A847D",
-      "#1E8A6D",
-      "#1F1F8A",
-      "#1F601A",
-      "#221786",
-      "#238F5E",
-      "#2B944E",
-      "#2F9B3E",
-      "#33A02C",
-      "#47A928",
-      "#5CB323",
-      "#70BC1F",
-      "#85C61A",
-      "#99CF16",
-      "#ADD912",
-      "#E60000",
-      "#EBF605",
-      "#FCB482",
-      "#FDD0AD",
-      "#FEF2EC",
-      "#FF0000",
-      "#FF4D00",
-      "#FF9C00",
-      "#FFBA00",
-      "#FFFF00",
-      "#FFFFFF"
+      "#011322"
     ],
     "tabler": "el-salvador",
     "colorGroups": {
@@ -3495,9 +3252,9 @@
     "name": "Syria",
     "code": "sy",
     "colors": [
+      "#FFFFFF",
       "#007A3D",
-      "#CE1126",
-      "#FFFFFF"
+      "#CE1126"
     ],
     "tabler": "syria",
     "colorGroups": {
@@ -3514,14 +3271,12 @@
     "name": "Eswatini",
     "code": "sz",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#333333",
       "#3E5EB9",
       "#A70000",
-      "#B10C0C",
-      "#B3B3B3",
-      "#FFD900",
-      "#FFFFFF"
+      "#B10C0C"
     ],
     "tabler": "eswatini",
     "colorGroups": {
@@ -3557,10 +3312,10 @@
     "name": "Togo",
     "code": "tg",
     "colors": [
+      "#FFFFFF",
       "#118600",
       "#D80000",
-      "#FFE300",
-      "#FFFFFF"
+      "#FFE300"
     ],
     "tabler": "togo",
     "colorGroups": {
@@ -3596,10 +3351,10 @@
     "name": "Tajikistan",
     "code": "tj",
     "colors": [
+      "#FFFFFF",
       "#006600",
       "#CC0000",
-      "#F8C300",
-      "#FFFFFF"
+      "#F8C300"
     ],
     "tabler": "tajikistan",
     "colorGroups": {
@@ -3616,10 +3371,10 @@
     "name": "Timor-Leste",
     "code": "tl",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#CB000F",
-      "#F8C00C",
-      "#FFFFFF"
+      "#F8C00C"
     ],
     "tabler": "east-timor",
     "colorGroups": {
@@ -3636,11 +3391,11 @@
     "name": "Turkmenistan",
     "code": "tm",
     "colors": [
+      "#FFFFFF",
       "#00843D",
       "#383739",
       "#D22630",
-      "#FFC72C",
-      "#FFFFFF"
+      "#FFC72C"
     ],
     "tabler": "turkmenistan",
     "colorGroups": {
@@ -3657,8 +3412,8 @@
     "name": "Tunisia",
     "code": "tn",
     "colors": [
-      "#E70013",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#E70013"
     ],
     "tabler": "tunisia",
     "colorGroups": {
@@ -3672,11 +3427,11 @@
     }
   },
   {
-    "name": "TO",
+    "name": "Tonga",
     "code": "to",
     "colors": [
-      "#C10000",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#C10000"
     ],
     "tabler": "tonga",
     "colorGroups": {
@@ -3693,8 +3448,8 @@
     "name": "Turkey",
     "code": "tr",
     "colors": [
-      "#E30A17",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#E30A17"
     ],
     "tabler": "turkey",
     "colorGroups": {
@@ -3711,9 +3466,9 @@
     "name": "Trinidad and Tobago",
     "code": "tt",
     "colors": [
-      "#000000",
-      "#E00000",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#000001",
+      "#E00000"
     ],
     "tabler": "trinidad-and-tobago",
     "colorGroups": {
@@ -3730,11 +3485,11 @@
     "name": "Tuvalu",
     "code": "tv",
     "colors": [
+      "#FFFFFF",
       "#009FCA",
       "#012169",
       "#C8102E",
-      "#FFF40D",
-      "#FFFFFF"
+      "#FFF40D"
     ],
     "tabler": "tuvalu",
     "colorGroups": {
@@ -3751,9 +3506,9 @@
     "name": "Taiwan",
     "code": "tw",
     "colors": [
+      "#FFFFFF",
       "#000095",
-      "#FF0000",
-      "#FFFFFF"
+      "#FF0000"
     ],
     "tabler": "taiwan",
     "colorGroups": {
@@ -3770,7 +3525,7 @@
     "name": "Tanzania",
     "code": "tz",
     "colors": [
-      "#000000",
+      "#000001",
       "#009900",
       "#0099FF",
       "#FFFF00"
@@ -3808,13 +3563,12 @@
     "name": "Uganda",
     "code": "ug",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#9CA69C",
       "#DE3108",
-      "#DE3908",
-      "#FFE700",
-      "#FFFDFF",
-      "#FFFFFF"
+      "#DE3908"
     ],
     "tabler": "uganda",
     "colorGroups": {
@@ -3831,9 +3585,9 @@
     "name": "United States",
     "code": "us",
     "colors": [
+      "#FFFFFF",
       "#192F5D",
-      "#BD3D44",
-      "#FFFFFF"
+      "#BD3D44"
     ],
     "tabler": "united-states",
     "colorGroups": {
@@ -3850,10 +3604,10 @@
     "name": "Uruguay",
     "code": "uy",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#0038A8",
-      "#FCD116",
-      "#FFFFFF"
+      "#FCD116"
     ],
     "tabler": "uruguay",
     "colorGroups": {
@@ -3870,10 +3624,10 @@
     "name": "Uzbekistan",
     "code": "uz",
     "colors": [
+      "#FFFFFF",
       "#0099B5",
       "#1EB53A",
-      "#CE1126",
-      "#FFFFFF"
+      "#CE1126"
     ],
     "tabler": "uzbekistan",
     "colorGroups": {
@@ -3890,12 +3644,12 @@
     "name": "Vatican City",
     "code": "va",
     "colors": [
+      "#FFFFFF",
       "#000000",
       "#CCCCCC",
       "#CE9D09",
       "#FA0204",
-      "#FFE000",
-      "#FFFFFF"
+      "#FFE000"
     ],
     "tabler": "vatican",
     "colorGroups": {
@@ -3931,10 +3685,10 @@
     "name": "Venezuela",
     "code": "ve",
     "colors": [
+      "#FFFFFF",
       "#00247D",
       "#CF142B",
-      "#FFCC00",
-      "#FFFFFF"
+      "#FFCC00"
     ],
     "tabler": "venezuela",
     "colorGroups": {
@@ -3989,9 +3743,9 @@
     "name": "Samoa",
     "code": "ws",
     "colors": [
+      "#FFFFFF",
       "#002B7F",
-      "#CE1126",
-      "#FFFFFF"
+      "#CE1126"
     ],
     "tabler": "samoa",
     "colorGroups": {
@@ -4008,9 +3762,9 @@
     "name": "Yemen",
     "code": "ye",
     "colors": [
-      "#000000",
-      "#F10600",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#000001",
+      "#F10600"
     ],
     "tabler": "yemen",
     "colorGroups": {
@@ -4027,12 +3781,12 @@
     "name": "South Africa",
     "code": "za",
     "colors": [
-      "#000000",
+      "#FFFFFF",
+      "#000001",
       "#000C8A",
       "#007847",
       "#E1392D",
-      "#FFB915",
-      "#FFFFFF"
+      "#FFB915"
     ],
     "tabler": "south-africa",
     "colorGroups": {
@@ -4050,6 +3804,7 @@
     "code": "zm",
     "colors": [
       "#000000",
+      "#000001",
       "#198A00",
       "#DE2010",
       "#EF7D00"
@@ -4069,13 +3824,12 @@
     "name": "Zimbabwe",
     "code": "zw",
     "colors": [
+      "#FFFFFF",
       "#000000",
+      "#000001",
       "#0000FF",
       "#006400",
-      "#D40000",
-      "#FFCC00",
-      "#FFD200",
-      "#FFFFFF"
+      "#D40000"
     ],
     "tabler": "zimbabwe",
     "colorGroups": {

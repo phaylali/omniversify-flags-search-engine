@@ -2,33 +2,27 @@
 
 An interactive web application that lets you explore country flags by their colors. Select colors to instantly find matching flags and see countries highlighted on a world map.
 
-![Flag Color Explorer Screenshot](https://img.shields.io/badge/Astro-3.5-blue) ![License](https://img.shields.io/badge/License-MIT-green)
-
 ## Features
 
 - **Color-based flag search** - Click colors to find flags containing them
-- **Simplified & Advanced modes** - Filter by color groups (Red, Blue, Green...) or specific hex codes
+- **"Any" button** - Show all 196 flags at once
 - **AND logic filtering** - Find flags containing ALL selected colors
+- **Color chips** - Each flag displays its colors with hex codes below
 - **Interactive SVG map** - Countries highlight when their flags match your selection
 - **Zoom & Pan** - Mouse wheel to zoom, drag to pan, reset button included
-- **197 countries** - Comprehensive coverage of world flags
+- **Local flag SVGs** - 196 country flags stored locally (no CDN dependency)
 - **Dark theme** - Easy on the eyes
-- **Responsive design** - Works on various screen sizes
 
-## Demo
+## Countries Included
 
-Open the application and:
-
-1. Click on "Red" in Simplified mode to see all flags with red
-2. Add "Blue" to find flags with both red AND blue
-3. Switch to Advanced mode to select exact hex colors like `#003DA5`
-4. Watch the map highlight matching countries
+- **196 countries** - All UN member states + Vatican City, Palestine, Taiwan
+- **Israel excluded** - Permanently removed from data and scripts
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Bun](https://bun.sh/) (recommended) or Node.js 22+
+- [Bun](https://bun.sh/) (required)
 
 ### Installation
 
@@ -57,86 +51,70 @@ bun run preview
 
 ```
 ├── public/
-│   ├── flags.json          # Country data with ISO codes and colors
-│   ├── colorGroups.json    # Color group definitions
-│   └── world.geojson       # Custom world map (Morocco+WS, Palestine merged)
+│   ├── flags.json          # 196 countries with extracted colors
+│   └── flags-svgs/         # Local SVG flags (196 files)
+│       ├── us.svg
+│       ├── fr.svg
+│       └── ...
 ├── scripts/
-│   └── merge-geojson.ts    # Script to generate custom GeoJSON
+│   ├── download-flags.sh   # Download flags from GitHub
+│   ├── filter-svgs.sh      # Filter to 196 countries (excludes Israel)
+│   ├── extract-svg-colors.ts  # Extract colors from SVGs
+│   ├── filter-countries.ts    # Filter to official countries
+│   ├── normalize-colors.ts    # Normalize similar colors
+│   └── merge-geojson.ts       # Generate custom world map
 └── src/
     └── pages/
         └── index.astro     # Main application
 ```
 
-## Customization
+## Scripts
 
-### Adding/Modifying Colors
+| Command | Description |
+|---------|-------------|
+| `bun run dev` | Start development server |
+| `bun run build` | Build for production |
+| `bun run download-flags` | Download flag SVGs from GitHub |
+| `bun run filter-svgs` | Keep only 196 country SVGs |
+| `bun run extract-colors` | Extract colors from SVGs |
+| `bun run filter-countries` | Filter JSON to countries only |
+| `bun run normalize-colors` | Normalize similar colors |
 
-Edit `public/colorGroups.json` to organize colors into groups:
+## Color Normalization
 
-```json
-{
-  "groups": {
-    "red": {
-      "label": "Red",
-      "colors": ["#CE1126", "#FF0000", ...]
-    }
-  }
-}
+Edit `scripts/normalize-colors.ts` to add color normalization rules:
+
+```typescript
+const COLOR_RULES: [string, string][] = [
+  ["#000001", "#000000"],  // near-black -> black
+  // Add your rules here:
+  // ["#INFERIOR", "#SUPERIOR"],
+];
 ```
 
-### Adding Countries
-
-Edit `public/flags.json`:
-
-```json
-{
-  "name": "Country Name",
-  "code": "xx",
-  "tabler": "country-name",
-  "colors": ["#HEX1", "#HEX2"]
-}
-```
-
-### Regenerating the Map
-
-After modifying territory claims:
-
+Then run:
 ```bash
-bun run scripts/merge-geojson.ts
+bun run normalize-colors
 ```
+
+You can also manually edit `public/flags.json` to fix specific flags.
 
 ## Tech Stack
 
 - [Astro](https://astro.build/) - Static site generator
 - [Bun](https://bun.sh/) - JavaScript runtime
-- [Turf.js](https://turfjs.org/) - Geospatial operations (used in build scripts)
-- [flag-icons](https://github.com/lipis/flag-icons) - SVG country flags
-- [Tabler Icons](https://tabler-icons.io/) - UI icons
+- [Turf.js](https://turfjs.org/) - Geospatial operations (build scripts)
 - Custom SVG rendering - Lightweight map without heavy dependencies
 
 ## Data Sources
 
-- **Flags**: [flag-icons](https://github.com/lipis/flag-icons) by Lipis (MIT License)
-- **Map**: Based on [Natural Earth](https://www.naturalearthdata.com/) vector data
-- **Colors**: Manually curated flag color data
+- **Flags**: [flag-icons](https://github.com/lipis/flag-icons) by Lipis
+- **Map**: Based on Natural Earth vector data, merged with Turf.js
+- **Colors**: Extracted directly from SVG files
 
 ## License
 
 MIT License - See LICENSE file for details
-
----
-
-## Support Us
-
-<p align="center">
-  <a href="https://ko-fi.com/omniversify">
-    <img src="https://raw.githubusercontent.com/phaylali/Omniversify/main/public/images/kofi_logo.svg" width="200" alt="Ko-Fi" />
-  </a>
-</p>
-
-<p align="center">
-  <strong>Keep us going</strong>
-</p>
 
 ---
 
