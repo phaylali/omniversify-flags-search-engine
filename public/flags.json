@@ -4,14 +4,9 @@
     "code": "ad",
     "colors": [
       "#0018A8",
-      "#0065BD",
-      "#703D29",
       "#C7B37F",
       "#D0103A",
-      "#D52B1E",
-      "#FCD900",
-      "#FEDF00",
-      "#FFFFFF"
+      "#FCD900"
     ],
     "tabler": "andorra",
     "colorGroups": {
@@ -60,7 +55,7 @@
       "blue": false,
       "green": true,
       "yellow": false,
-      "orange": false,
+      "orange": true,
       "white": true,
       "black": true
     }
@@ -82,7 +77,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -129,7 +124,6 @@
     "colors": [
       "#000000",
       "#FF0000",
-      "#FFEC00",
       "#FFEE00"
     ],
     "tabler": "angola",
@@ -148,7 +142,6 @@
     "code": "ar",
     "colors": [
       "#74ACDF",
-      "#843511",
       "#85340A",
       "#F6B40E",
       "#FFFFFF"
@@ -159,7 +152,7 @@
       "blue": true,
       "green": false,
       "yellow": true,
-      "orange": false,
+      "orange": true,
       "white": true,
       "black": false
     }
@@ -376,7 +369,6 @@
     "code": "bj",
     "colors": [
       "#319400",
-      "#808080",
       "#DE2110",
       "#FFD600"
     ],
