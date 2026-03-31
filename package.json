@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+<<<<<<< HEAD
     "preview": "astro preview",
     "astro": "astro",
     "download-flags": "bash scripts/download-flags.sh",
@@ -17,14 +18,25 @@
     "classify-colors": "bun run scripts/classify-colors.ts",
     "generate-color-map": "bun run scripts/generate-color-map.ts",
     "normalize-colors": "bun run scripts/normalize-colors.ts"
+=======
+    "preview": "bun run build && wrangler dev",
+    "astro": "astro",
+    "generate-types": "wrangler types",
+    "deploy": "bun run build && wrangler deploy"
+>>>>>>> origin/cloudflare/workers-autoconfig
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^13.1.6",
     "astro": "^6.1.1",
     "d3": "^7.9.0",
     "d3-geo": "^3.1.1",
-    "flag-icons": "^7.5.0"
+    "flag-icons": "^7.5.0",
+    "wrangler": "^4.78.0"
   },
   "devDependencies": {
     "@turf/turf": "^7.3.4"
+  },
+  "overrides": {
+    "vite": "^7"
   }
 }
