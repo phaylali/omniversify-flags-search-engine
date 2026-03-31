@@ -1,5 +1,9 @@
 {
 	"compatibility_date": "2026-03-17",
 	"name": "omniversify-flags-search-engine",
-	"pages_build_output_dir": "./dist"
+	"pages_build_output_dir": "./dist",
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS"
+	}
 }

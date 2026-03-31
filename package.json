@@ -16,7 +16,8 @@
     "filter-countries": "bun run scripts/filter-countries.ts",
     "classify-colors": "bun run scripts/classify-colors.ts",
     "generate-color-map": "bun run scripts/generate-color-map.ts",
-    "normalize-colors": "bun run scripts/normalize-colors.ts"
+    "normalize-colors": "bun run scripts/normalize-colors.ts",
+    "deploy": "wrangler pages deploy"
   },
   "dependencies": {
     "astro": "^6.1.1",
