@@ -9,6 +9,7 @@
     "dev": "astro dev",
     "build": "astro build",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "preview": "astro preview",
     "astro": "astro",
     "download-flags": "bash scripts/download-flags.sh",
@@ -19,11 +20,16 @@
     "generate-color-map": "bun run scripts/generate-color-map.ts",
     "normalize-colors": "bun run scripts/normalize-colors.ts"
 =======
+=======
+>>>>>>> ce8aadf016285be1127eea623405129ae4693802
     "preview": "bun run build && wrangler dev",
     "astro": "astro",
     "generate-types": "wrangler types",
     "deploy": "bun run build && wrangler deploy"
+<<<<<<< HEAD
 >>>>>>> origin/cloudflare/workers-autoconfig
+=======
+>>>>>>> ce8aadf016285be1127eea623405129ae4693802
   },
   "dependencies": {
     "@astrojs/cloudflare": "^13.1.6",
