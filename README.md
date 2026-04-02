@@ -24,6 +24,8 @@ An interactive web application that lets you explore country flags by their colo
 
 - [Bun](https://bun.sh/) (required)
 
+---
+
 ### Installation
 
 ```bash
@@ -70,15 +72,15 @@ bun run preview
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `bun run dev` | Start development server |
-| `bun run build` | Build for production |
-| `bun run download-flags` | Download flag SVGs from GitHub |
-| `bun run filter-svgs` | Keep only 196 country SVGs |
-| `bun run extract-colors` | Extract colors from SVGs |
-| `bun run filter-countries` | Filter JSON to countries only |
-| `bun run normalize-colors` | Normalize similar colors |
+| Command                    | Description                    |
+| -------------------------- | ------------------------------ |
+| `bun run dev`              | Start development server       |
+| `bun run build`            | Build for production           |
+| `bun run download-flags`   | Download flag SVGs from GitHub |
+| `bun run filter-svgs`      | Keep only 196 country SVGs     |
+| `bun run extract-colors`   | Extract colors from SVGs       |
+| `bun run filter-countries` | Filter JSON to countries only  |
+| `bun run normalize-colors` | Normalize similar colors       |
 
 ## Color Normalization
 
@@ -86,13 +88,14 @@ Edit `scripts/normalize-colors.ts` to add color normalization rules:
 
 ```typescript
 const COLOR_RULES: [string, string][] = [
-  ["#000001", "#000000"],  // near-black -> black
+  ["#000001", "#000000"], // near-black -> black
   // Add your rules here:
   // ["#INFERIOR", "#SUPERIOR"],
 ];
 ```
 
 Then run:
+
 ```bash
 bun run normalize-colors
 ```
