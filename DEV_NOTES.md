@@ -12,6 +12,7 @@ This app is built as a single-page Astro application that ships minimal JavaScri
 - Flag filtering with AND logic (or "Any" for all flags)
 - SVG map rendering and interaction
 - Map highlighting based on filter results
+- Flag preview modal
 
 ### Data Flow
 
@@ -49,7 +50,7 @@ interface Flag {
 
 ### `public/flags-svgs/`
 
-Local SVG flag files (196 files). Downloaded from flag-icons GitHub repo and filtered to official countries only.
+Local SVG flag files (196 files). Downloaded from flag-icons GitHub repo and filtered to official countries only. Israel is permanently excluded.
 
 ### `public/world.geojson`
 
@@ -120,6 +121,26 @@ function getMatchingFlags() {
 }
 ```
 
+## Flag Preview Modal
+
+Click any flag card to open a full-screen preview:
+
+- Large flag image
+- Country name
+- Color chips showing all flag colors
+- Close via X button, backdrop click, or Escape key
+
+```typescript
+function openPreview(flag) {
+  previewFlag.src = `https://flagicons.lipis.dev/flags/4x3/${flag.code}.svg`;
+  previewName.textContent = flag.name;
+  previewColors.innerHTML = flag.colors
+    .map((c) => `<div class="color-chip" style="background:${c}">...</div>`)
+    .join("");
+  preview.classList.add("active");
+}
+```
+
 ## Scripts
 
 ### Download & Filter Pipeline
@@ -158,7 +179,6 @@ bun run normalize-colors
 ### Manual Color Editing
 
 For specific flags (like El Salvador with many anti-aliased colors), manually edit `public/flags.json`:
-
 ```bash
 nano public/flags.json
 ```
@@ -174,9 +194,29 @@ nano public/flags.json
 
 ### Color Chips
 
-Each flag displays its colors as chips with hex codes:
-- Background color matches the hex value
-- Text color adjusts for readability (light text on dark backgrounds)
+Stadium-shaped chips with hex codes:
+- Uses `border-radius: 9999px !important` to ensure pill shape
+- Inline `style="background:..."` overrides class, so `!important` needed for border-radius
+- Text color determined by `isLightColor()` function based on luminance
+
+```css
+.color-chip {
+  border-radius: 9999px !important;
+  /* ... */
+}
+```
+
+## Cloudflare Pages Deployment
+
+The project is configured for Cloudflare Pages static deployment:
+
+- `wrangler.jsonc`: Configured for Pages with `pages_build_output_dir`
+- `package.json`: Deploy script uses `wrangler pages deploy`
+
+Deploy command:
+```bash
+bun run deploy
+```
 
 ## Countries Excluded
 
@@ -200,6 +240,7 @@ Each flag displays its colors as chips with hex codes:
 2. **Simple projection** - High latitudes are distorted (standard Mercator)
 3. **Manual color normalization** - Requires reviewing and adding rules
 4. **Single page only** - No routing or multiple views
+5. **Inline styles override CSS** - Use `!important` for critical styles
 
 ## Potential Improvements
 

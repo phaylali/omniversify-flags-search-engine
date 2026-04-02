@@ -7,8 +7,9 @@ An interactive web application that lets you explore country flags by their colo
 - **Color-based flag search** - Click colors to find flags containing them
 - **"Any" button** - Show all 196 flags at once
 - **AND logic filtering** - Find flags containing ALL selected colors
-- **Color chips** - Each flag displays its colors with hex codes below
-- **Interactive SVG map** - Countries highlight when their flags match your selection
+- **Color chips** - Each flag displays its colors as stadium-shaped chips with hex codes
+- **Flag preview modal** - Click any flag to see it full-screen with colors
+- **Interactive SVG map** - Countries highlight in gold when their flags match your selection
 - **Zoom & Pan** - Mouse wheel to zoom, drag to pan, reset button included
 - **Local flag SVGs** - 196 country flags stored locally (no CDN dependency)
 - **Dark theme** - Easy on the eyes
@@ -49,6 +50,12 @@ bun run build
 bun run preview
 ```
 
+### Deploy to Cloudflare Pages
+
+```bash
+bun run deploy
+```
+
 ## Project Structure
 
 ```
@@ -63,7 +70,7 @@ bun run preview
 │   ├── filter-svgs.sh      # Filter to 196 countries (excludes Israel)
 │   ├── extract-svg-colors.ts  # Extract colors from SVGs
 │   ├── filter-countries.ts    # Filter to official countries
-│   ├── normalize-colors.ts    # Normalize similar colors
+│   ├── normalize-colors.ts    # Normalize similar colors (manual rules)
 │   └── merge-geojson.ts       # Generate custom world map
 └── src/
     └── pages/
@@ -76,6 +83,8 @@ bun run preview
 | -------------------------- | ------------------------------ |
 | `bun run dev`              | Start development server       |
 | `bun run build`            | Build for production           |
+| `bun run preview`          | Preview production build       |
+| `bun run deploy`          | Deploy to Cloudflare Pages     |
 | `bun run download-flags`   | Download flag SVGs from GitHub |
 | `bun run filter-svgs`      | Keep only 196 country SVGs     |
 | `bun run extract-colors`   | Extract colors from SVGs       |
@@ -84,7 +93,7 @@ bun run preview
 
 ## Color Normalization
 
-Edit `scripts/normalize-colors.ts` to add color normalization rules:
+Colors extracted from SVGs may include similar shades (due to anti-aliasing). Edit `scripts/normalize-colors.ts` to add manual rules:
 
 ```typescript
 const COLOR_RULES: [string, string][] = [
@@ -102,12 +111,21 @@ bun run normalize-colors
 
 You can also manually edit `public/flags.json` to fix specific flags.
 
+## Flag Preview
+
+Click any flag card to open a full-screen preview modal:
+- Large flag image
+- Country name
+- Color chips showing all flag colors with hex codes
+- Close via X button, backdrop click, or Escape key
+
 ## Tech Stack
 
 - [Astro](https://astro.build/) - Static site generator
 - [Bun](https://bun.sh/) - JavaScript runtime
 - [Turf.js](https://turfjs.org/) - Geospatial operations (build scripts)
 - Custom SVG rendering - Lightweight map without heavy dependencies
+- [Cloudflare Pages](https://pages.cloudflare.com/) - Deployment
 
 ## Data Sources
 
