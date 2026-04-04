@@ -54,7 +54,7 @@
       "blue": false,
       "green": true,
       "yellow": false,
-      "orange": true,
+      "orange": false,
       "white": true,
       "black": true
     }
@@ -111,8 +111,8 @@
       "red": true,
       "blue": true,
       "green": false,
-      "yellow": true,
-      "orange": false,
+      "yellow": false,
+      "orange": true,
       "white": false,
       "black": false
     }
@@ -150,7 +150,7 @@
       "blue": true,
       "green": false,
       "yellow": true,
-      "orange": true,
+      "orange": false,
       "white": true,
       "black": false
     }
@@ -397,7 +397,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -412,8 +412,8 @@
     "tabler": "bolivia",
     "colorGroups": {
       "red": true,
-      "blue": true,
-      "green": false,
+      "blue": false,
+      "green": true,
       "yellow": true,
       "orange": false,
       "white": false,
@@ -490,11 +490,11 @@
     "tabler": "botswana",
     "colorGroups": {
       "red": false,
-      "blue": false,
+      "blue": true,
       "green": false,
       "yellow": false,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -513,7 +513,7 @@
       "green": true,
       "yellow": false,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": false
     }
   },
@@ -796,7 +796,7 @@
     "colorGroups": {
       "red": false,
       "blue": false,
-      "green": false,
+      "green": true,
       "yellow": false,
       "orange": true,
       "white": true,
@@ -852,8 +852,8 @@
     ],
     "tabler": "djibouti",
     "colorGroups": {
-      "red": false,
-      "blue": false,
+      "red": true,
+      "blue": true,
       "green": true,
       "yellow": false,
       "orange": false,
@@ -892,12 +892,12 @@
     ],
     "tabler": "dominica",
     "colorGroups": {
-      "red": false,
-      "blue": false,
+      "red": true,
+      "blue": true,
       "green": true,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -998,7 +998,7 @@
       "blue": false,
       "green": false,
       "yellow": false,
-      "orange": false,
+      "orange": true,
       "white": true,
       "black": true
     }
@@ -1056,7 +1056,7 @@
     "tabler": "ethiopia",
     "colorGroups": {
       "red": true,
-      "blue": false,
+      "blue": true,
       "green": true,
       "yellow": true,
       "orange": false,
@@ -1097,8 +1097,8 @@
     "colorGroups": {
       "red": true,
       "blue": true,
-      "green": false,
-      "yellow": false,
+      "green": true,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -1252,7 +1252,7 @@
       "green": true,
       "yellow": false,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": false
     }
   },
@@ -1329,9 +1329,9 @@
     "colorGroups": {
       "red": false,
       "blue": true,
-      "green": false,
-      "yellow": false,
-      "orange": false,
+      "green": true,
+      "yellow": true,
+      "orange": true,
       "white": true,
       "black": false
     }
@@ -1373,7 +1373,7 @@
       "green": true,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -1410,7 +1410,7 @@
       "red": true,
       "blue": true,
       "green": false,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -1430,10 +1430,10 @@
     "colorGroups": {
       "red": true,
       "blue": true,
-      "green": false,
-      "yellow": false,
+      "green": true,
+      "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": false
     }
   },
@@ -1526,7 +1526,7 @@
     "colorGroups": {
       "red": true,
       "blue": false,
-      "green": false,
+      "green": true,
       "yellow": false,
       "orange": false,
       "white": true,
@@ -1738,7 +1738,7 @@
     "tabler": "comoros",
     "colorGroups": {
       "red": true,
-      "blue": false,
+      "blue": true,
       "green": true,
       "yellow": true,
       "orange": false,
@@ -1763,7 +1763,7 @@
       "green": true,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -1898,7 +1898,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -1916,10 +1916,10 @@
       "red": true,
       "blue": true,
       "green": false,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": false,
-      "black": false
+      "black": true
     }
   },
   {
@@ -1938,9 +1938,9 @@
       "blue": false,
       "green": true,
       "yellow": true,
-      "orange": false,
+      "orange": true,
       "white": false,
-      "black": false
+      "black": true
     }
   },
   {
@@ -2109,11 +2109,11 @@
     "colorGroups": {
       "red": true,
       "blue": true,
-      "green": false,
+      "green": true,
       "yellow": true,
-      "orange": false,
+      "orange": true,
       "white": false,
-      "black": false
+      "black": true
     }
   },
   {
@@ -2128,8 +2128,8 @@
     "tabler": "montenegro",
     "colorGroups": {
       "red": true,
-      "blue": false,
-      "green": false,
+      "blue": true,
+      "green": true,
       "yellow": true,
       "orange": false,
       "white": false,
@@ -2168,8 +2168,8 @@
       "red": false,
       "blue": true,
       "green": false,
-      "yellow": false,
-      "orange": true,
+      "yellow": true,
+      "orange": false,
       "white": true,
       "black": false
     }
@@ -2285,7 +2285,7 @@
       "yellow": false,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -2361,7 +2361,7 @@
       "blue": false,
       "green": true,
       "yellow": false,
-      "orange": false,
+      "orange": true,
       "white": true,
       "black": false
     }
@@ -2380,7 +2380,7 @@
       "red": true,
       "blue": true,
       "green": false,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -2403,7 +2403,7 @@
       "green": true,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -2479,8 +2479,8 @@
     "colorGroups": {
       "red": false,
       "blue": true,
-      "green": false,
-      "yellow": false,
+      "green": true,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -2654,7 +2654,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -2720,7 +2720,8 @@
     "colors": [
       "#009639",
       "#ED2E38",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#000000"
     ],
     "tabler": "palestine",
     "colorGroups": {
@@ -2747,12 +2748,12 @@
     "tabler": "portugal",
     "colorGroups": {
       "red": true,
-      "blue": false,
+      "blue": true,
       "green": true,
       "yellow": true,
       "orange": false,
-      "white": false,
-      "black": false
+      "white": true,
+      "black": true
     }
   },
   {
@@ -2788,11 +2789,11 @@
     "colorGroups": {
       "red": true,
       "blue": true,
-      "green": false,
-      "yellow": false,
+      "green": true,
+      "yellow": true,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -2847,10 +2848,10 @@
       "red": true,
       "blue": true,
       "green": false,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -3020,7 +3021,7 @@
       "red": true,
       "blue": true,
       "green": false,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -3078,13 +3079,13 @@
     ],
     "tabler": "san-marino",
     "colorGroups": {
-      "red": false,
-      "blue": false,
-      "green": false,
-      "yellow": false,
+      "red": true,
+      "blue": true,
+      "green": true,
+      "yellow": true,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -3116,7 +3117,7 @@
     "tabler": "somalia",
     "colorGroups": {
       "red": false,
-      "blue": false,
+      "blue": true,
       "green": false,
       "yellow": false,
       "orange": false,
@@ -3177,7 +3178,7 @@
     ],
     "tabler": "sao-tome-and-principe",
     "colorGroups": {
-      "red": false,
+      "red": true,
       "blue": false,
       "green": true,
       "yellow": true,
@@ -3190,53 +3191,22 @@
     "name": "El Salvador",
     "code": "sv",
     "colors": [
-      "#000000",
-      "#00209F",
-      "#00633B",
+      "#0F47AF",
+      "#FFFFFF",
+      "#FFCC00",
       "#007E93",
-      "#011322",
-      "#032C4D",
-      "#064374",
-      "#0671B0",
-      "#172D91",
-      "#17808B",
-      "#1A258D",
-      "#1A847D",
-      "#1E8A6D",
-      "#1F1F8A",
       "#1F601A",
-      "#221786",
-      "#238F5E",
-      "#2B944E",
-      "#2F9B3E",
-      "#33A02C",
-      "#47A928",
-      "#5CB323",
-      "#70BC1F",
-      "#85C61A",
-      "#99CF16",
-      "#ADD912",
-      "#E60000",
-      "#EBF605",
-      "#FCB482",
-      "#FDD0AD",
-      "#FEF2EC",
-      "#FF0000",
-      "#FF4D00",
-      "#FF9C00",
-      "#FFBA00",
-      "#FFFF00",
-      "#FFFFFF"
+      "#000000"
     ],
     "tabler": "el-salvador",
     "colorGroups": {
       "red": false,
       "blue": true,
-      "green": false,
-      "yellow": false,
+      "green": true,
+      "yellow": true,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -3245,7 +3215,8 @@
     "colors": [
       "#007A3D",
       "#CE1126",
-      "#FFFFFF"
+      "#FFFFFF",
+      "#000000"
     ],
     "tabler": "syria",
     "colorGroups": {
@@ -3265,9 +3236,7 @@
       "#000000",
       "#333333",
       "#3E5EB9",
-      "#A70000",
       "#B10C0C",
-      "#B3B3B3",
       "#FFD900",
       "#FFFFFF"
     ],
@@ -3278,7 +3247,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -3352,9 +3321,9 @@
     "tabler": "tajikistan",
     "colorGroups": {
       "red": true,
-      "blue": true,
+      "blue": false,
       "green": true,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -3376,7 +3345,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": true
     }
   },
@@ -3385,7 +3354,6 @@
     "code": "tm",
     "colors": [
       "#00843D",
-      "#383739",
       "#D22630",
       "#FFC72C",
       "#FFFFFF"
@@ -3395,7 +3363,7 @@
       "red": true,
       "blue": false,
       "green": true,
-      "yellow": false,
+      "yellow": true,
       "orange": false,
       "white": true,
       "black": false
@@ -3420,7 +3388,7 @@
     }
   },
   {
-    "name": "TO",
+    "name": "Tonga",
     "code": "to",
     "colors": [
       "#C10000",
@@ -3491,7 +3459,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": false
     }
   },
@@ -3558,10 +3526,8 @@
     "colors": [
       "#000000",
       "#9CA69C",
-      "#DE3108",
       "#DE3908",
       "#FFE700",
-      "#FFFDFF",
       "#FFFFFF"
     ],
     "tabler": "uganda",
@@ -3611,7 +3577,7 @@
       "yellow": true,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -3647,13 +3613,13 @@
     ],
     "tabler": "vatican",
     "colorGroups": {
-      "red": false,
+      "red": true,
       "blue": false,
       "green": false,
       "yellow": true,
       "orange": false,
       "white": true,
-      "black": false
+      "black": true
     }
   },
   {
@@ -3691,7 +3657,7 @@
       "green": false,
       "yellow": true,
       "orange": false,
-      "white": false,
+      "white": true,
       "black": false
     }
   },
@@ -3807,8 +3773,8 @@
       "red": true,
       "blue": false,
       "green": true,
-      "yellow": true,
-      "orange": false,
+      "yellow": false,
+      "orange": true,
       "white": false,
       "black": true
     }
@@ -3821,14 +3787,13 @@
       "#0000FF",
       "#006400",
       "#D40000",
-      "#FFCC00",
       "#FFD200",
       "#FFFFFF"
     ],
     "tabler": "zimbabwe",
     "colorGroups": {
       "red": true,
-      "blue": false,
+      "blue": true,
       "green": true,
       "yellow": true,
       "orange": false,
