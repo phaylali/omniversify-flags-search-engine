@@ -17,7 +17,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ad.svg"
   },
   {
     "name": "United Arab Emirates",
@@ -37,7 +38,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ae.svg"
   },
   {
     "name": "Afghanistan",
@@ -57,7 +59,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/af.svg"
   },
   {
     "name": "Antigua and Barbuda",
@@ -78,7 +81,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ag.svg"
   },
   {
     "name": "Albania",
@@ -96,7 +100,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/al.svg"
   },
   {
     "name": "Armenia",
@@ -115,7 +120,8 @@
       "orange": true,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/am.svg"
   },
   {
     "name": "Angola",
@@ -134,7 +140,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ao.svg"
   },
   {
     "name": "Argentina",
@@ -153,7 +160,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ar.svg"
   },
   {
     "name": "Austria",
@@ -171,7 +179,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/at.svg"
   },
   {
     "name": "Australia",
@@ -190,7 +199,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/au.svg"
   },
   {
     "name": "Azerbaijan",
@@ -210,7 +220,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/az.svg"
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -229,7 +240,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ba.svg"
   },
   {
     "name": "Barbados",
@@ -248,7 +260,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/bb.svg"
   },
   {
     "name": "Bangladesh",
@@ -266,7 +279,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bd.svg"
   },
   {
     "name": "Belgium",
@@ -285,7 +299,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/be.svg"
   },
   {
     "name": "Burkina Faso",
@@ -304,7 +319,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bf.svg"
   },
   {
     "name": "Bulgaria",
@@ -323,7 +339,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bg.svg"
   },
   {
     "name": "Bahrain",
@@ -341,7 +358,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bh.svg"
   },
   {
     "name": "Burundi",
@@ -360,7 +378,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bi.svg"
   },
   {
     "name": "Benin",
@@ -379,7 +398,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bj.svg"
   },
   {
     "name": "Brunei",
@@ -399,7 +419,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/bn.svg"
   },
   {
     "name": "Bolivia",
@@ -418,7 +439,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bo.svg"
   },
   {
     "name": "Brazil",
@@ -438,7 +460,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/br.svg"
   },
   {
     "name": "Bahamas",
@@ -457,7 +480,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/bs.svg"
   },
   {
     "name": "Bhutan",
@@ -477,7 +501,8 @@
       "orange": true,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/bt.svg"
   },
   {
     "name": "Botswana",
@@ -496,7 +521,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/bw.svg"
   },
   {
     "name": "Belarus",
@@ -515,7 +541,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/by.svg"
   },
   {
     "name": "Belize",
@@ -535,7 +562,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/bz.svg"
   },
   {
     "name": "Canada",
@@ -553,7 +581,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ca.svg"
   },
   {
     "name": "Democratic Republic of the Congo",
@@ -572,7 +601,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cd.svg"
   },
   {
     "name": "Central African Republic",
@@ -593,7 +623,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cf.svg"
   },
   {
     "name": "Congo",
@@ -612,7 +643,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cg.svg"
   },
   {
     "name": "Switzerland",
@@ -630,7 +662,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ch.svg"
   },
   {
     "name": "CI",
@@ -649,7 +682,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ci.svg"
   },
   {
     "name": "Chile",
@@ -668,7 +702,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cl.svg"
   },
   {
     "name": "Cameroon",
@@ -687,7 +722,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cm.svg"
   },
   {
     "name": "China",
@@ -705,7 +741,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cn.svg"
   },
   {
     "name": "Colombia",
@@ -724,7 +761,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/co.svg"
   },
   {
     "name": "Costa Rica",
@@ -743,7 +781,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cr.svg"
   },
   {
     "name": "Cuba",
@@ -762,7 +801,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cu.svg"
   },
   {
     "name": "Cape Verde",
@@ -782,7 +822,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cv.svg"
   },
   {
     "name": "Cyprus",
@@ -801,7 +842,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cy.svg"
   },
   {
     "name": "Czechia",
@@ -820,7 +862,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/cz.svg"
   },
   {
     "name": "Germany",
@@ -839,7 +882,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/de.svg"
   },
   {
     "name": "Djibouti",
@@ -859,7 +903,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/dj.svg"
   },
   {
     "name": "Denmark",
@@ -877,7 +922,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/dk.svg"
   },
   {
     "name": "Dominica",
@@ -899,7 +945,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/dm.svg"
   },
   {
     "name": "Dominican Republic",
@@ -920,7 +967,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/do.svg"
   },
   {
     "name": "Algeria",
@@ -939,7 +987,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/dz.svg"
   },
   {
     "name": "Ecuador",
@@ -962,7 +1011,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ec.svg"
   },
   {
     "name": "Estonia",
@@ -981,7 +1031,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ee.svg"
   },
   {
     "name": "Egypt",
@@ -1001,7 +1052,8 @@
       "orange": true,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/eg.svg"
   },
   {
     "name": "Eritrea",
@@ -1021,7 +1073,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/er.svg"
   },
   {
     "name": "Spain",
@@ -1042,7 +1095,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/es.svg"
   },
   {
     "name": "Ethiopia",
@@ -1062,7 +1116,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/et.svg"
   },
   {
     "name": "Finland",
@@ -1080,7 +1135,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/fi.svg"
   },
   {
     "name": "Fiji",
@@ -1102,7 +1158,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/fj.svg"
   },
   {
     "name": "Micronesia",
@@ -1120,7 +1177,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/fm.svg"
   },
   {
     "name": "France",
@@ -1139,7 +1197,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/fr.svg"
   },
   {
     "name": "Gabon",
@@ -1158,7 +1217,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ga.svg"
   },
   {
     "name": "United Kingdom",
@@ -1177,7 +1237,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/gb.svg"
   },
   {
     "name": "Grenada",
@@ -1196,7 +1257,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/gd.svg"
   },
   {
     "name": "Georgia",
@@ -1214,7 +1276,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ge.svg"
   },
   {
     "name": "Ghana",
@@ -1234,7 +1297,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/gh.svg"
   },
   {
     "name": "Gambia",
@@ -1254,7 +1318,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/gm.svg"
   },
   {
     "name": "Guinea",
@@ -1273,7 +1338,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/gn.svg"
   },
   {
     "name": "Equatorial Guinea",
@@ -1295,7 +1361,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/gq.svg"
   },
   {
     "name": "Greece",
@@ -1313,7 +1380,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/gr.svg"
   },
   {
     "name": "Guatemala",
@@ -1334,7 +1402,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/gt.svg"
   },
   {
     "name": "Guinea-Bissau",
@@ -1354,7 +1423,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/gw.svg"
   },
   {
     "name": "Guyana",
@@ -1375,7 +1445,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/gy.svg"
   },
   {
     "name": "Honduras",
@@ -1393,7 +1464,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/hn.svg"
   },
   {
     "name": "Croatia",
@@ -1414,7 +1486,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/hr.svg"
   },
   {
     "name": "Haiti",
@@ -1435,7 +1508,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ht.svg"
   },
   {
     "name": "Hungary",
@@ -1454,7 +1528,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/hu.svg"
   },
   {
     "name": "Indonesia",
@@ -1472,7 +1547,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/id.svg"
   },
   {
     "name": "Ireland",
@@ -1491,7 +1567,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ie.svg"
   },
   {
     "name": "India",
@@ -1511,7 +1588,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/in.svg"
   },
   {
     "name": "Iraq",
@@ -1531,7 +1609,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/iq.svg"
   },
   {
     "name": "Iran",
@@ -1550,7 +1629,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ir.svg"
   },
   {
     "name": "Iceland",
@@ -1569,7 +1649,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/is.svg"
   },
   {
     "name": "Italy",
@@ -1588,7 +1669,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/it.svg"
   },
   {
     "name": "Jamaica",
@@ -1607,7 +1689,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/jm.svg"
   },
   {
     "name": "Jordan",
@@ -1627,7 +1710,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/jo.svg"
   },
   {
     "name": "Japan",
@@ -1645,7 +1729,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/jp.svg"
   },
   {
     "name": "Kenya",
@@ -1665,7 +1750,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ke.svg"
   },
   {
     "name": "Kyrgyzstan",
@@ -1683,7 +1769,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/kg.svg"
   },
   {
     "name": "Cambodia",
@@ -1703,7 +1790,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/kh.svg"
   },
   {
     "name": "Kiribati",
@@ -1723,7 +1811,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ki.svg"
   },
   {
     "name": "Comoros",
@@ -1744,7 +1833,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/km.svg"
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -1765,7 +1855,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/kn.svg"
   },
   {
     "name": "North Korea",
@@ -1784,7 +1875,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/kp.svg"
   },
   {
     "name": "South Korea",
@@ -1804,7 +1896,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/kr.svg"
   },
   {
     "name": "Kuwait",
@@ -1824,7 +1917,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/kw.svg"
   },
   {
     "name": "Kazakhstan",
@@ -1842,7 +1936,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/kz.svg"
   },
   {
     "name": "Laos",
@@ -1861,7 +1956,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/la.svg"
   },
   {
     "name": "Lebanon",
@@ -1880,7 +1976,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/lb.svg"
   },
   {
     "name": "Saint Lucia",
@@ -1900,7 +1997,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/lc.svg"
   },
   {
     "name": "Liechtenstein",
@@ -1920,7 +2018,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/li.svg"
   },
   {
     "name": "Sri Lanka",
@@ -1941,7 +2040,8 @@
       "orange": true,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/lk.svg"
   },
   {
     "name": "Liberia",
@@ -1960,7 +2060,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/lr.svg"
   },
   {
     "name": "Lesotho",
@@ -1980,7 +2081,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ls.svg"
   },
   {
     "name": "Lithuania",
@@ -1999,7 +2101,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/lt.svg"
   },
   {
     "name": "Luxembourg",
@@ -2018,7 +2121,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/lu.svg"
   },
   {
     "name": "Latvia",
@@ -2036,7 +2140,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/lv.svg"
   },
   {
     "name": "Libya",
@@ -2056,7 +2161,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ly.svg"
   },
   {
     "name": "Morocco",
@@ -2074,7 +2180,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ma.svg"
   },
   {
     "name": "Monaco",
@@ -2092,7 +2199,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mc.svg"
   },
   {
     "name": "Moldova",
@@ -2114,7 +2222,8 @@
       "orange": true,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/md.svg"
   },
   {
     "name": "Montenegro",
@@ -2134,7 +2243,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/me.svg"
   },
   {
     "name": "Madagascar",
@@ -2153,7 +2263,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mg.svg"
   },
   {
     "name": "Marshall Islands",
@@ -2172,7 +2283,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mh.svg"
   },
   {
     "name": "North Macedonia",
@@ -2190,7 +2302,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mk.svg"
   },
   {
     "name": "Mali",
@@ -2209,7 +2322,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ml.svg"
   },
   {
     "name": "Myanmar",
@@ -2229,7 +2343,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mm.svg"
   },
   {
     "name": "Mongolia",
@@ -2248,7 +2363,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mn.svg"
   },
   {
     "name": "Mauritania",
@@ -2267,7 +2383,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mr.svg"
   },
   {
     "name": "Malta",
@@ -2286,7 +2403,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/mt.svg"
   },
   {
     "name": "Mauritius",
@@ -2306,7 +2424,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mu.svg"
   },
   {
     "name": "Maldives",
@@ -2325,7 +2444,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mv.svg"
   },
   {
     "name": "Malawi",
@@ -2344,7 +2464,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/mw.svg"
   },
   {
     "name": "Mexico",
@@ -2364,7 +2485,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/mx.svg"
   },
   {
     "name": "Malaysia",
@@ -2384,7 +2506,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/my.svg"
   },
   {
     "name": "Mozambique",
@@ -2405,7 +2528,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/mz.svg"
   },
   {
     "name": "Namibia",
@@ -2426,7 +2550,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/na.svg"
   },
   {
     "name": "Niger",
@@ -2445,7 +2570,8 @@
       "orange": true,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ne.svg"
   },
   {
     "name": "Nigeria",
@@ -2463,7 +2589,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ng.svg"
   },
   {
     "name": "Nicaragua",
@@ -2484,7 +2611,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ni.svg"
   },
   {
     "name": "Netherlands",
@@ -2503,7 +2631,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/nl.svg"
   },
   {
     "name": "Norway",
@@ -2522,7 +2651,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/no.svg"
   },
   {
     "name": "Nepal",
@@ -2541,7 +2671,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/np.svg"
   },
   {
     "name": "Nauru",
@@ -2560,7 +2691,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/nr.svg"
   },
   {
     "name": "New Zealand",
@@ -2580,7 +2712,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/nz.svg"
   },
   {
     "name": "Oman",
@@ -2599,7 +2732,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/om.svg"
   },
   {
     "name": "Panama",
@@ -2618,7 +2752,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/pa.svg"
   },
   {
     "name": "Peru",
@@ -2636,7 +2771,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/pe.svg"
   },
   {
     "name": "Papua New Guinea",
@@ -2656,7 +2792,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/pg.svg"
   },
   {
     "name": "Philippines",
@@ -2676,7 +2813,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ph.svg"
   },
   {
     "name": "Pakistan",
@@ -2694,7 +2832,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/pk.svg"
   },
   {
     "name": "Poland",
@@ -2712,7 +2851,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/pl.svg"
   },
   {
     "name": "Palestine",
@@ -2732,7 +2872,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ps.svg"
   },
   {
     "name": "Portugal",
@@ -2754,7 +2895,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/pt.svg"
   },
   {
     "name": "Palau",
@@ -2772,7 +2914,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/pw.svg"
   },
   {
     "name": "Paraguay",
@@ -2794,7 +2937,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/py.svg"
   },
   {
     "name": "Qatar",
@@ -2812,7 +2956,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/qa.svg"
   },
   {
     "name": "Romania",
@@ -2831,7 +2976,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ro.svg"
   },
   {
     "name": "Serbia",
@@ -2852,7 +2998,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/rs.svg"
   },
   {
     "name": "Russia",
@@ -2871,7 +3018,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ru.svg"
   },
   {
     "name": "Rwanda",
@@ -2890,7 +3038,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/rw.svg"
   },
   {
     "name": "Saudi Arabia",
@@ -2908,7 +3057,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sa.svg"
   },
   {
     "name": "Solomon Islands",
@@ -2928,7 +3078,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sb.svg"
   },
   {
     "name": "Seychelles",
@@ -2949,7 +3100,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sc.svg"
   },
   {
     "name": "Sudan",
@@ -2969,7 +3121,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/sd.svg"
   },
   {
     "name": "Sweden",
@@ -2987,7 +3140,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/se.svg"
   },
   {
     "name": "Singapore",
@@ -3005,7 +3159,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sg.svg"
   },
   {
     "name": "Slovenia",
@@ -3025,7 +3180,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/si.svg"
   },
   {
     "name": "Slovakia",
@@ -3044,7 +3200,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sk.svg"
   },
   {
     "name": "Sierra Leone",
@@ -3063,7 +3220,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sl.svg"
   },
   {
     "name": "San Marino",
@@ -3086,7 +3244,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/sm.svg"
   },
   {
     "name": "Senegal",
@@ -3105,7 +3264,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sn.svg"
   },
   {
     "name": "Somalia",
@@ -3123,7 +3283,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/so.svg"
   },
   {
     "name": "Suriname",
@@ -3143,7 +3304,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/sr.svg"
   },
   {
     "name": "South Sudan",
@@ -3165,7 +3327,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ss.svg"
   },
   {
     "name": "Sao Tome and Principe",
@@ -3185,7 +3348,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/st.svg"
   },
   {
     "name": "El Salvador",
@@ -3207,7 +3371,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/sv.svg"
   },
   {
     "name": "Syria",
@@ -3227,7 +3392,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/sy.svg"
   },
   {
     "name": "Eswatini",
@@ -3249,7 +3415,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/sz.svg"
   },
   {
     "name": "Chad",
@@ -3268,7 +3435,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/td.svg"
   },
   {
     "name": "Togo",
@@ -3288,7 +3456,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tg.svg"
   },
   {
     "name": "Thailand",
@@ -3307,7 +3476,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/th.svg"
   },
   {
     "name": "Tajikistan",
@@ -3327,7 +3497,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tj.svg"
   },
   {
     "name": "Timor-Leste",
@@ -3347,7 +3518,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/tl.svg"
   },
   {
     "name": "Turkmenistan",
@@ -3367,7 +3539,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tm.svg"
   },
   {
     "name": "Tunisia",
@@ -3385,7 +3558,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tn.svg"
   },
   {
     "name": "Tonga",
@@ -3403,7 +3577,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/to.svg"
   },
   {
     "name": "Turkey",
@@ -3421,7 +3596,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tr.svg"
   },
   {
     "name": "Trinidad and Tobago",
@@ -3440,7 +3616,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/tt.svg"
   },
   {
     "name": "Tuvalu",
@@ -3461,7 +3638,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tv.svg"
   },
   {
     "name": "Taiwan",
@@ -3480,7 +3658,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/tw.svg"
   },
   {
     "name": "Tanzania",
@@ -3500,7 +3679,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/tz.svg"
   },
   {
     "name": "Ukraine",
@@ -3518,7 +3698,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ua.svg"
   },
   {
     "name": "Uganda",
@@ -3539,7 +3720,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ug.svg"
   },
   {
     "name": "United States",
@@ -3558,7 +3740,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/us.svg"
   },
   {
     "name": "Uruguay",
@@ -3578,7 +3761,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/uy.svg"
   },
   {
     "name": "Uzbekistan",
@@ -3598,7 +3782,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/uz.svg"
   },
   {
     "name": "Vatican City",
@@ -3620,7 +3805,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/va.svg"
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -3639,7 +3825,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/vc.svg"
   },
   {
     "name": "Venezuela",
@@ -3659,7 +3846,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ve.svg"
   },
   {
     "name": "Vietnam",
@@ -3677,7 +3865,8 @@
       "orange": false,
       "white": false,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/vn.svg"
   },
   {
     "name": "Vanuatu",
@@ -3697,7 +3886,8 @@
       "orange": false,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/vu.svg"
   },
   {
     "name": "Samoa",
@@ -3716,7 +3906,8 @@
       "orange": false,
       "white": true,
       "black": false
-    }
+    },
+    "svgUrl": "/flags-svgs/ws.svg"
   },
   {
     "name": "Yemen",
@@ -3735,7 +3926,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/ye.svg"
   },
   {
     "name": "South Africa",
@@ -3757,7 +3949,8 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/za.svg"
   },
   {
     "name": "Zambia",
@@ -3777,7 +3970,8 @@
       "orange": true,
       "white": false,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/zm.svg"
   },
   {
     "name": "Zimbabwe",
@@ -3799,6 +3993,7 @@
       "orange": false,
       "white": true,
       "black": true
-    }
+    },
+    "svgUrl": "/flags-svgs/zw.svg"
   }
 ]

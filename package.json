@@ -20,13 +20,15 @@
     "deploy": "wrangler pages deploy"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^13.1.7",
     "astro": "^6.1.1",
     "d3": "^7.9.0",
-    "d3-geo": "^3.1.1",
-    "flag-icons": "^7.5.0"
+    "d3-geo": "^3.1.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
     "@turf/turf": "^7.3.4",
+    "tailwindcss": "4.2",
     "wrangler": "^4.79.0"
   }
 }

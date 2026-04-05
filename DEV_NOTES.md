@@ -36,6 +36,7 @@ interface Flag {
   code: string;      // "fr" (ISO 3166-1 alpha-2)
   tabler: string;    // "france"
   colors: string[];  // ["#002395", "#FFFFFF", "#ED2939"]
+  svgUrl: string;    // "/flags-svgs/fr.svg"
   colorGroups: {     // Auto-populated color group membership
     red: boolean;
     blue: boolean;
@@ -132,14 +133,41 @@ Click any flag card to open a full-screen preview:
 
 ```typescript
 function openPreview(flag) {
-  previewFlag.src = `https://flagicons.lipis.dev/flags/4x3/${flag.code}.svg`;
+  previewFlag.src = `/flags-svgs/${flag.code}.svg`;
   previewName.textContent = flag.name;
   previewColors.innerHTML = flag.colors
     .map((c) => `<div class="color-chip" style="background:${c}">...</div>`)
     .join("");
-  preview.classList.add("active");
+  preview.style.display = 'flex';
 }
 ```
+
+## REST API
+
+The application exposes a REST API via Astro's native API routes at `src/pages/api/[country]/`.
+
+### Endpoints
+
+| Endpoint | Description |
+| --- | --- |
+| `GET /api/:country` | Returns full country JSON object |
+| `GET /api/:country/colors` | Returns colors array |
+| `GET /api/:country/svgUrl` | Returns `{ svgUrl: "/flags-svgs/{code}.svg" }` |
+
+### Country Lookup
+
+The API accepts country identifiers in multiple formats:
+- ISO country code: `ar`, `us`, `fr`
+- Full name (kebab-case): `argentina`, `united-states`, `france`
+- Name without spaces: `argentina`, `unitedstates`, `france`
+
+### Error Handling
+
+Returns 404 with `{"error":"Country not found"}` for unknown countries.
+
+### Implementation
+
+Each endpoint is a separate `.ts` file in `src/pages/api/[country]/` with `export const prerender = false` to enable server-side rendering.
 
 ## Scripts
 
@@ -185,26 +213,35 @@ nano public/flags.json
 
 ## Styling
 
-### CSS Architecture
+### Tailwind CSS v4.2
 
-- Scoped styles in `<style>` block (Astro standard)
-- Dark theme with `#0f0f1a` background
-- Card-based UI with `#1a1a2e` panels
-- Accent color `#667eea` for highlights
+The entire application uses Tailwind CSS v4.2 for all styling. There are no custom CSS classes or scoped `<style>` blocks.
+
+- **Entry point**: `src/styles/global.css` with `@import "tailwindcss"`
+- **PostCSS**: Configured via `postcss.config.js` with `@tailwindcss/postcss`
+- **Arbitrary values**: Used throughout for custom colors (e.g., `bg-[#0f0f1a]`, `text-[#e0e0e0]`)
+- **Custom animations**: `previewIn` keyframe defined in `global.css`
+- **Hover/Active states**: Tailwind utilities like `hover:bg-[#2e2e50]`, `[&.active]:border-white`
+
+### Color Theme
+
+| Element | Color |
+| --- | --- |
+| Background | `#0f0f1a` |
+| Panels | `#1a1a2e` |
+| Cards | `#252540` |
+| Card hover | `#2e2e50` |
+| Active buttons | `#3a3a5e` |
+| Accent | `#667eea` → `#764ba2` gradient |
+| Map highlight | `#FFD700` (gold) |
 
 ### Color Chips
 
-Stadium-shaped chips with hex codes:
-- Uses `border-radius: 9999px !important` to ensure pill shape
-- Inline `style="background:..."` overrides class, so `!important` needed for border-radius
+Stadium-shaped chips with hex codes using Tailwind:
+- `rounded-full` for pill shape
+- `inline-flex items-center justify-center` for centering
 - Text color determined by `isLightColor()` function based on luminance
-
-```css
-.color-chip {
-  border-radius: 9999px !important;
-  /* ... */
-}
-```
+- Light colors get `text-[#333]!` override, dark colors use white text with text-shadow
 
 ## Cloudflare Pages Deployment
 
@@ -212,6 +249,7 @@ The project is configured for Cloudflare Pages static deployment:
 
 - `wrangler.jsonc`: Configured for Pages with `pages_build_output_dir`
 - `package.json`: Deploy script uses `wrangler pages deploy`
+- `@astrojs/cloudflare`: Adapter for Cloudflare Workers compatibility
 
 Deploy command:
 ```bash
@@ -229,10 +267,11 @@ bun run deploy
 
 ## Performance
 
-1. **Flags JSON**: ~30KB, loaded once at startup
+1. **Flags JSON**: ~65KB, loaded once at startup
 2. **GeoJSON**: ~800KB, loaded once and rendered to SVG
-3. **Flag SVGs**: Loaded on-demand via `<img>` tags
+3. **Flag SVGs**: Loaded on-demand via `<img>` tags with `loading="lazy"`
 4. **No re-renders**: Map paths created once, only `fill` attribute changes
+5. **Tailwind CSS**: ~23KB of generated CSS (tree-shaken to only used utilities)
 
 ## Known Limitations
 
@@ -240,10 +279,11 @@ bun run deploy
 2. **Simple projection** - High latitudes are distorted (standard Mercator)
 3. **Manual color normalization** - Requires reviewing and adding rules
 4. **Single page only** - No routing or multiple views
-5. **Inline styles override CSS** - Use `!important` for critical styles
+5. **Preview modal positioning** - May need refinement for edge cases
 
 ## Potential Improvements
 
+- [ ] Fix preview modal centering for all screen sizes
 - [ ] Add search/filter for countries by name
 - [ ] Add color picker to find similar colors
 - [ ] Implement touch gestures for mobile map
