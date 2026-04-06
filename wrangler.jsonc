@@ -1,6 +1,12 @@
 {
 	"compatibility_date": "2026-03-17",
 	"name": "omniversify-flags-search-engine",
+	"routes": [
+		{
+			"pattern": "flagscolors.omniversify.com",
+			"zone_name": "omniversify.com"
+		}
+	],
 	"kv_namespaces": [
 		{
 			"binding": "SESSION",
