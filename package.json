@@ -17,7 +17,7 @@
     "classify-colors": "bun run scripts/classify-colors.ts",
     "generate-color-map": "bun run scripts/generate-color-map.ts",
     "normalize-colors": "bun run scripts/normalize-colors.ts",
-    "deploy": "rm -rf dist/server .wrangler/deploy && wrangler pages deploy dist/client"
+    "deploy": "rm -rf .wrangler/deploy && cd dist/server && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^13.1.7",

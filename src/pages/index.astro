@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import flagsData from "../../public/flags.json";
+import Copyright from "../components/Copyright.astro";
 
 // Color groups - simplified to 7 main groups + "Any" option
 const groups = [
@@ -62,17 +63,23 @@ const groups = [
         </div>
       </section>
     </div>
+
+    <Copyright />
   </div>
 
   <div class="fixed inset-0 hidden z-[1000]" id="flagPreview">
     <div class="absolute inset-0 bg-black/85 backdrop-blur-sm" id="previewBackdrop"></div>
-    <div class="relative z-[1001] bg-[#1a1a2e] rounded-2xl p-10 max-w-3xl w-[90%] text-center shadow-2xl shadow-black/50 animate-[previewIn_0.2s_ease]">
-      <button class="absolute top-4 right-4 w-9 h-9 border-none bg-[#333] text-white rounded-full text-2xl cursor-pointer flex items-center justify-center transition-colors duration-200 hover:bg-[#555]" id="previewClose">&times;</button>
-      <img id="previewFlag" src="" alt="" class="max-w-full max-h-[400px] object-contain rounded-lg mb-5" />
-      <h2 id="previewName" class="text-2xl text-[#e0e0e0] mb-4"></h2>
-      <div class="flex flex-wrap gap-2 justify-center" id="previewColors"></div>
+    <div class="flex items-center justify-center w-full h-full relative z-[1001]">
+      <div class="bg-[#1a1a2e] rounded-2xl p-10 max-w-3xl w-[90%] text-center shadow-2xl shadow-black/50 animate-[previewIn_0.2s_ease]">
+        <button class="absolute top-4 right-4 w-9 h-9 border-none bg-[#333] text-white rounded-full text-2xl cursor-pointer flex items-center justify-center transition-colors duration-200 hover:bg-[#555]" id="previewClose">&times;</button>
+        <img id="previewFlag" src="" alt="" class="mx-auto block max-w-full max-h-[400px] object-contain rounded-lg mb-5" />
+        <h2 id="previewName" class="text-2xl text-[#e0e0e0] mb-4"></h2>
+        <div class="flex flex-wrap gap-2 justify-center" id="previewColors"></div>
+      </div>
     </div>
   </div>
+
+  <div id="copyTooltip" class="fixed hidden z-[2000] bg-[#252540] text-white px-3 py-1.5 rounded-md text-sm shadow-lg pointer-events-none"></div>
 
   <link
     rel="stylesheet"
@@ -347,7 +354,7 @@ const groups = [
         <div class="flex flex-wrap gap-0.75 justify-center mt-auto pt-1">
           ${flag.colors.map((c) => {
             const isLight = isLightColor(c);
-            return `<span class="inline-flex items-center justify-center px-3.5 py-0.5 rounded-full text-[0.55rem] font-mono border border-white/15 min-w-12 h-5.5 overflow-hidden" style="background:${c}"><span class="relative z-10 ${isLight ? 'text-[#333]!' : ''} [text-shadow:0_0_2px_rgba(0,0,0,0.8)]">${c}</span></span>`;
+            return `<span class="color-chip inline-flex items-center justify-center px-3.5 py-0.5 rounded-full text-[0.55rem] font-mono border border-white/15 min-w-12 h-5.5 overflow-hidden cursor-pointer transition-transform duration-150 hover:scale-110" style="background:${c}" data-color="${c}"><span class="relative z-10 ${isLight ? 'text-[#333]!' : ''} [text-shadow:0_0_2px_rgba(0,0,0,0.8)]">${c}</span></span>`;
           }).join("")}
         </div>
       </div>
@@ -436,7 +443,7 @@ const groups = [
     previewColors.innerHTML = flag.colors
       .map((c: string) => {
         const isLight = isLightColor(c);
-        return `<span class="inline-flex items-center justify-center px-3 py-1.5 rounded-full text-sm min-w-18" style="background:${c}"><span class="relative z-10 ${isLight ? 'text-[#333]!' : 'text-white'} [text-shadow:0_0_2px_rgba(0,0,0,0.8)]">${c}</span></span>`;
+        return `<span class="color-chip inline-flex items-center justify-center px-3 py-1.5 rounded-full text-sm min-w-18 cursor-pointer transition-transform duration-150 hover:scale-110" style="background:${c}" data-color="${c}"><span class="relative z-10 ${isLight ? 'text-[#333]!' : 'text-white'} [text-shadow:0_0_2px_rgba(0,0,0,0.8)]">${c}</span></span>`;
       })
       .join("");
 
@@ -455,6 +462,29 @@ const groups = [
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closePreview();
+  });
+
+  function showCopyTooltip(event: MouseEvent, message: string) {
+    const tooltip = document.getElementById("copyTooltip")!;
+    tooltip.textContent = message;
+    tooltip.style.left = `${event.clientX + 10}px`;
+    tooltip.style.top = `${event.clientY + 10}px`;
+    tooltip.classList.remove("hidden");
+    setTimeout(() => tooltip.classList.add("hidden"), 1500);
+  }
+
+  document.addEventListener("click", async (e) => {
+    const target = e.target as HTMLElement;
+    const colorChip = target.closest(".color-chip") as HTMLElement;
+    if (!colorChip) return;
+
+    const color = colorChip.getAttribute("data-color")!;
+    try {
+      await navigator.clipboard.writeText(color);
+      showCopyTooltip(e as MouseEvent, "Copied!");
+    } catch (err) {
+      showCopyTooltip(e as MouseEvent, "Failed to copy");
+    }
   });
 
   document.querySelectorAll("[data-group]").forEach((btn) => {

@@ -1,4 +1,10 @@
 {
 	"compatibility_date": "2026-03-17",
-	"name": "omniversify-flags-search-engine"
+	"name": "omniversify-flags-search-engine",
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "9981c837526845e6999beaa892545e00"
+		}
+	]
 }
